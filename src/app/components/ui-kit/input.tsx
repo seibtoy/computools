@@ -43,8 +43,8 @@ function Input({
     'file:text-foreground font-urw-geometric placeholder:text-medium-gray selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex h-10 w-full min-w-0 bg-transparent border-b-1 border-medium-gray px-4 py-1 text-base transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive';
 
   const iconPadding = cn(
-    LeftIconComponent && 'pl-6',
-    RightIconComponent && 'pr-6',
+    LeftIconComponent && 'pl-10',
+    RightIconComponent && 'pr-10',
     !LeftIconComponent && 'pl-4',
     !RightIconComponent && 'pr-4'
   );
@@ -64,7 +64,7 @@ function Input({
       )}
       <div className="relative flex items-center">
         {LeftIconComponent && (
-          <LeftIconComponent className="absolute w-4 h-4 text-muted-foreground pointer-events-none" />
+          <LeftIconComponent className="absolute left-3 w-5 h-5 text-muted-foreground pointer-events-none" />
         )}
         <input
           id={finalId}
@@ -75,7 +75,7 @@ function Input({
           {...props}
         />
         {RightIconComponent && (
-          <RightIconComponent className="absolute right-3 w-4 h-4 text-muted-foreground pointer-events-none" />
+          <RightIconComponent className="absolute right-3 w-5 h-5 text-muted-foreground pointer-events-none" />
         )}
       </div>
     </div>

@@ -4,6 +4,7 @@ import localFont from 'next/font/local';
 
 import { cn } from '@/lib/utils';
 
+import { Header } from './components/header/header';
 import './globals.css';
 
 const urwGeometric = localFont({
@@ -71,6 +72,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn(geistSans.variable, geistMono.variable, urwGeometric.variable, 'antialiased')}>
+        <Header />
         {children}
       </body>
     </html>

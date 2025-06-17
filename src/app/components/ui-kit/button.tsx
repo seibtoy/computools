@@ -23,6 +23,7 @@ const buttonVariants = cva(
           'bg-light-gray text-gray rounded-none uppercase font-regular text-base hover:cursor-pointer hover:bg-green-flash hover:text-black hover:font-bold',
         whiteBtn:
           'bg-white text-black border-1 border-medium-gray rounded-none uppercase font-regular text-base hover:cursor-pointer hover:bg-light-gray',
+        greenBtn: 'bg-green-flash text-black rounded-none uppercase font-regular text-base hover:cursor-pointer',
       },
       size: {
         default: 'h-9 px-4 py-2 has-[>svg]:px-3',
