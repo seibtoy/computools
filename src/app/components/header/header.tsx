@@ -12,9 +12,9 @@ const Heart = icons.heart;
 const Cart = icons.cart;
 const CrossedUser = icons.crossedUser;
 
-export const Header = () => {
+export default function Header() {
   return (
-    <section className="flex items-center max-lg:justify-between max-lg:h-15 max-lg:pr-6 h-21.5 bg-light-gray">
+    <header className="flex items-center max-lg:justify-between max-lg:h-15 max-lg:pr-6 h-21.5 bg-light-gray">
       <Image src={MobileLogo} alt="logo" className="max-lg:h-15 max-lg:w-15 lg:hidden" />
       <Image src={DesktopLogo} alt="logo" className="h-21.5 w-86 max-lg:hidden" />
       <div className="flex gap-6 lg:hidden">
@@ -58,6 +58,6 @@ export const Header = () => {
           </div>
         </div>
       </div>
-    </section>
+    </header>
   );
-};
+}

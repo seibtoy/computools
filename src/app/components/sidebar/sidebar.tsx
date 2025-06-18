@@ -9,7 +9,7 @@ interface Data {
   icon: React.ComponentType<SVGProps<SVGSVGElement>>;
 }
 
-export const Sidebar = () => {
+export default function Sidebar() {
   const sidebarData: Data[] = [
     { label: 'Laptops', icon: icons.laptop, path: '/laptops' },
     { label: 'Computers', icon: icons.computer, path: '/computers' },
@@ -28,7 +28,7 @@ export const Sidebar = () => {
 
   return (
     <nav>
-      <ul className="flex flex-col max-lg:flex-row max-lg:gap-4">
+      <ul className="flex flex-col max-lg:flex-row max-lg:gap-4 scrollbar-hide">
         {sidebarData.map((item, index) => {
           const IconComponent = item.icon;
 
@@ -46,4 +46,4 @@ export const Sidebar = () => {
       </ul>
     </nav>
   );
-};
+}

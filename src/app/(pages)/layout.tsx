@@ -4,8 +4,9 @@ import localFont from 'next/font/local';
 
 import { cn } from '@/lib/utils';
 
-import { Header } from '../components/header/header';
-import { Sidebar } from '../components/sidebar/sidebar';
+import Footer from '../components/footer/footer';
+import Header from '../components/header/header';
+import Sidebar from '../components/sidebar/sidebar';
 import './../globals.css';
 
 const urwGeometric = localFont({
@@ -75,11 +76,12 @@ export default function RootLayout({
       <body className={cn(geistSans.variable, geistMono.variable, urwGeometric.variable, 'antialiased')}>
         <Header />
         <div className="flex max-lg:flex-col">
-          <div className="lg:max-w-100 lg:w-full lg:border-r-1 lg:border-medium-gray lg:ml-21.5 lg:pl-5 max-lg:m-6 overflow-x-auto scrollbar-hide">
+          <div className="lg:max-w-100 lg:w-full lg:border-r-1 lg:max-h-220 lg:border-medium-gray lg:ml-21.5 lg:pl-5 lg:pt-10 max-lg:m-6 overflow-x-auto scrollbar-hide">
             <Sidebar />
           </div>
           <div className="py-10.5 pl-10.5 pr-21.5 max-lg:pt-0 max-lg:p-6">{children}</div>
         </div>
+        <Footer />
       </body>
     </html>
   );
