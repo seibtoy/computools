@@ -4,43 +4,44 @@ import localFont from 'next/font/local';
 
 import { cn } from '@/lib/utils';
 
-import { Header } from './components/header/header';
-import './globals.css';
+import { Header } from '../components/header/header';
+import { Sidebar } from '../components/sidebar/sidebar';
+import './../globals.css';
 
 const urwGeometric = localFont({
   src: [
     {
-      path: '../../public/fonts/URWGeometric-Regular.woff2',
+      path: '../../../public/fonts/URWGeometric-Regular.woff2',
       weight: '300',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/URWGeometric-Medium.woff2',
+      path: '../../../public/fonts/URWGeometric-Medium.woff2',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/URWGeometric-Semibold.woff2',
+      path: '../../../public/fonts/URWGeometric-Semibold.woff2',
       weight: '500',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/URWGeometric-Bold.woff2',
+      path: '../../../public/fonts/URWGeometric-Bold.woff2',
       weight: '600',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/URWGeometric-Extrabold.woff2',
+      path: '../../../public/fonts/URWGeometric-Extrabold.woff2',
       weight: '700',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/URWGeometric-Heavy.woff2',
+      path: '../../../public/fonts/URWGeometric-Heavy.woff2',
       weight: '800',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/URWGeometric-Black.woff2',
+      path: '../../../public/fonts/URWGeometric-Black.woff2',
       weight: '900',
       style: 'normal',
     },
@@ -73,7 +74,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn(geistSans.variable, geistMono.variable, urwGeometric.variable, 'antialiased')}>
         <Header />
-        {children}
+        <div className="flex max-lg:flex-col">
+          <div className="lg:max-w-100 lg:w-full lg:border-r-1 lg:border-medium-gray lg:ml-21.5 lg:pl-5 max-lg:m-6 overflow-x-auto scrollbar-hide">
+            <Sidebar />
+          </div>
+          <div className="py-10.5 pl-10.5 pr-21.5 max-lg:pt-0 max-lg:p-6">{children}</div>
+        </div>
       </body>
     </html>
   );
