@@ -21,7 +21,7 @@ export default function Footer() {
   return (
     <footer className="bg-light-gray lg:px-21.5 pt-15 pb-5 flex flex-col gap-15 max-lg:px-6">
       <div className="w-full flex justify-between items-center max-lg:flex-col max-lg:gap-12.5 max-lg:justify-center">
-        <div className="flex justify-center items-center w-100">
+        <div className="flex justify-center items-center max-w-100 w-full">
           <Image src={Logo} alt="logo" draggable={false} className="select-none" />
         </div>
         <div className="lg:max-w-100 w-full flex flex-col gap-4">
