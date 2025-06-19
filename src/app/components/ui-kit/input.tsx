@@ -4,16 +4,16 @@ import { type IconName, icons } from '@/app/components/ui-kit';
 import { cn } from '@/lib/utils';
 
 type InputVariant = 'default' | 'search' | 'auth';
-type IconPosition = 'left' | 'right' | 'bothsides';
 
 interface Props extends ComponentProps<'input'> {
   variant?: InputVariant;
   placeholder: string;
   label?: string;
   labelClassname?: string;
-  iconPosition?: IconPosition;
   leftIcon?: IconName;
   rightIcon?: IconName;
+  rightIconColor?: string;
+  leftIconColor?: string;
 }
 
 function Input({
@@ -23,6 +23,8 @@ function Input({
   rightIcon,
   labelClassname,
   id,
+  rightIconColor,
+  leftIconColor,
   placeholder,
   variant = 'default',
   type,
@@ -64,7 +66,10 @@ function Input({
       )}
       <div className="relative flex items-center">
         {LeftIconComponent && (
-          <LeftIconComponent className="absolute left-3 w-5 h-5 text-muted-foreground pointer-events-none" />
+          <LeftIconComponent
+            color={leftIconColor}
+            className="absolute left-3 w-5 h-5 text-muted-foreground pointer-events-none"
+          />
         )}
         <input
           id={finalId}
@@ -75,7 +80,10 @@ function Input({
           {...props}
         />
         {RightIconComponent && (
-          <RightIconComponent className="absolute right-3 w-5 h-5 text-muted-foreground pointer-events-none" />
+          <RightIconComponent
+            color={rightIconColor}
+            className="absolute right-3 w-5 h-5 text-muted-foreground pointer-events-none"
+          />
         )}
       </div>
     </div>

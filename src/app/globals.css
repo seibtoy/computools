@@ -110,6 +110,10 @@ h6 {
   display: none;
 }
 
+.letter-spacing-20 {
+  letter-spacing: 20px;
+}
+
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);

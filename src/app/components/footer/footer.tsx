@@ -1,7 +1,7 @@
 import Image from 'next/image';
+import { ComponentType } from 'react';
 
-import { Button, Input, icons } from '@/app/components/ui-kit';
-import type { IconProps } from '@/app/components/ui-kit';
+import { Button, type IconProps, Input, icons } from '@/app/components/ui-kit';
 
 import Logo from '../../../../public/assets/footer-logo.png';
 
@@ -16,11 +16,11 @@ export default function Footer() {
     reddit: icons.reddit,
     x: icons.x,
   };
-  const socialMediaIconComponents: React.ComponentType<IconProps>[] = Object.values(logoIcons);
+  const socialMediaIconComponents: ComponentType<IconProps>[] = Object.values(logoIcons);
 
   return (
     <footer className="bg-light-gray lg:px-21.5 pt-15 pb-5 flex flex-col gap-15 max-lg:px-6">
-      <div className=" lg:max-w-100 w-full flex justify-between items-center max-lg:flex-col max-lg:gap-12.5 max-lg:justify-center">
+      <div className="w-full flex justify-between items-center max-lg:flex-col max-lg:gap-12.5 max-lg:justify-center">
         <div className="flex justify-center items-center w-100">
           <Image src={Logo} alt="logo" draggable={false} className="select-none" />
         </div>

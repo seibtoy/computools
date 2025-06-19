@@ -826,3 +826,20 @@ export const CheckIcon = ({ color = 'currentColor', strokeWidth = 1.5, ...props 
     />
   </svg>
 );
+
+export const GoogleIcon = ({ color = 'currentColor', ...props }: IconProps) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    style={{ color }}
+    viewBox="0 0 18 19"
+    width={18}
+    height={19}
+    fill="none"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M18 8.976H9.6v2.8h5.125A6.002 6.002 0 0 1 3 9.976a6 6 0 0 1 10.265-4.219l2.033-2.209A9 9 0 1 0 9 18.976c4.354 0 8.166-3.092 9-7.2v-2.8Z"
+    />
+  </svg>
+);
