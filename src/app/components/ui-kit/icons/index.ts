@@ -15,6 +15,7 @@ import {
   FacebookLogoIcon,
   FlaskIcon,
   GamepadIcon,
+  GoogleIcon,
   HairdryerIcon,
   HeadphonesMicIcon,
   HeartIcon,
@@ -82,6 +83,7 @@ export const icons = {
   list: ListIcon,
   headphonesMic: HeadphonesMicIcon,
   check: CheckIcon,
+  google: GoogleIcon,
 };
 
 export type IconName = keyof typeof icons;
