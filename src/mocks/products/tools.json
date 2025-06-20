@@ -1,0 +1,512 @@
+[
+  {
+    "id": "tools-01",
+    "name": "Makita Cordless Drill",
+    "price": 120,
+    "category": "tools",
+    "image": "https://surl.li/qtkggb",
+    "filters": {
+      "brand": "Makita",
+      "type": "Drill",
+      "powerSource": "Battery"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-02",
+    "name": "Bosch Angle Grinder",
+    "price": 98,
+    "category": "tools",
+    "image": "https://surl.li/pwcyrw",
+    "filters": {
+      "brand": "Bosch",
+      "type": "Grinder",
+      "powerSource": "Electric"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-03",
+    "name": "DeWalt Cordless Screwdriver",
+    "price": 85,
+    "category": "tools",
+    "image": "https://surl.li/gxpvpi",
+    "filters": {
+      "brand": "DeWalt",
+      "type": "Screwdriver",
+      "powerSource": "Battery"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-04",
+    "name": "Black+Decker Hand Saw",
+    "price": 42,
+    "category": "tools",
+    "image": "https://surl.lu/jydumd",
+    "filters": {
+      "brand": "Black+Decker",
+      "type": "Saw",
+      "powerSource": "Manual"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-05",
+    "name": "Einhell Electric Drill",
+    "price": 110,
+    "category": "tools",
+    "image": "https://surl.li/dilwmu",
+    "filters": {
+      "brand": "Einhell",
+      "type": "Drill",
+      "powerSource": "Electric"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-06",
+    "name": "Makita Battery Grinder",
+    "price": 105,
+    "category": "tools",
+    "image": "https://surl.lu/crdhsj",
+    "filters": {
+      "brand": "Makita",
+      "type": "Grinder",
+      "powerSource": "Battery"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-07",
+    "name": "Bosch Manual Screwdriver",
+    "price": 35,
+    "category": "tools",
+    "image": "https://surl.li/qtkggb",
+    "filters": {
+      "brand": "Bosch",
+      "type": "Screwdriver",
+      "powerSource": "Manual"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-08",
+    "name": "DeWalt Electric Saw",
+    "price": 130,
+    "category": "tools",
+    "image": "https://surl.li/pwcyrw",
+    "filters": {
+      "brand": "DeWalt",
+      "type": "Saw",
+      "powerSource": "Electric"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-09",
+    "name": "Black+Decker Battery Drill",
+    "price": 95,
+    "category": "tools",
+    "image": "https://surl.li/gxpvpi",
+    "filters": {
+      "brand": "Black+Decker",
+      "type": "Drill",
+      "powerSource": "Battery"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-10",
+    "name": "Einhell Manual Grinder",
+    "price": 40,
+    "category": "tools",
+    "image": "https://surl.lu/jydumd",
+    "filters": {
+      "brand": "Einhell",
+      "type": "Grinder",
+      "powerSource": "Manual"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-11",
+    "name": "Makita Electric Screwdriver",
+    "price": 115,
+    "category": "tools",
+    "image": "https://surl.li/dilwmu",
+    "filters": {
+      "brand": "Makita",
+      "type": "Screwdriver",
+      "powerSource": "Electric"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-12",
+    "name": "Bosch Battery Saw",
+    "price": 140,
+    "category": "tools",
+    "image": "https://surl.lu/crdhsj",
+    "filters": {
+      "brand": "Bosch",
+      "type": "Saw",
+      "powerSource": "Battery"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-13",
+    "name": "DeWalt Manual Drill",
+    "price": 55,
+    "category": "tools",
+    "image": "https://surl.li/qtkggb",
+    "filters": {
+      "brand": "DeWalt",
+      "type": "Drill",
+      "powerSource": "Manual"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-14",
+    "name": "Black+Decker Electric Grinder",
+    "price": 99,
+    "category": "tools",
+    "image": "https://surl.li/pwcyrw",
+    "filters": {
+      "brand": "Black+Decker",
+      "type": "Grinder",
+      "powerSource": "Electric"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-15",
+    "name": "Einhell Battery Screwdriver",
+    "price": 90,
+    "category": "tools",
+    "image": "https://surl.li/gxpvpi",
+    "filters": {
+      "brand": "Einhell",
+      "type": "Screwdriver",
+      "powerSource": "Battery"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-16",
+    "name": "Makita Manual Saw",
+    "price": 50,
+    "category": "tools",
+    "image": "https://surl.lu/jydumd",
+    "filters": {
+      "brand": "Makita",
+      "type": "Saw",
+      "powerSource": "Manual"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-17",
+    "name": "Bosch Cordless Drill",
+    "price": 125,
+    "category": "tools",
+    "image": "https://surl.li/dilwmu",
+    "filters": {
+      "brand": "Bosch",
+      "type": "Drill",
+      "powerSource": "Battery"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-18",
+    "name": "DeWalt Electric Grinder",
+    "price": 110,
+    "category": "tools",
+    "image": "https://surl.lu/crdhsj",
+    "filters": {
+      "brand": "DeWalt",
+      "type": "Grinder",
+      "powerSource": "Electric"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-19",
+    "name": "Black+Decker Battery Screwdriver",
+    "price": 90,
+    "category": "tools",
+    "image": "https://surl.li/qtkggb",
+    "filters": {
+      "brand": "Black+Decker",
+      "type": "Screwdriver",
+      "powerSource": "Battery"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-20",
+    "name": "Einhell Electric Saw",
+    "price": 140,
+    "category": "tools",
+    "image": "https://surl.li/pwcyrw",
+    "filters": {
+      "brand": "Einhell",
+      "type": "Saw",
+      "powerSource": "Electric"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-21",
+    "name": "Makita Battery Drill",
+    "price": 120,
+    "category": "tools",
+    "image": "https://surl.li/gxpvpi",
+    "filters": {
+      "brand": "Makita",
+      "type": "Drill",
+      "powerSource": "Battery"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-22",
+    "name": "Bosch Manual Grinder",
+    "price": 45,
+    "category": "tools",
+    "image": "https://surl.lu/jydumd",
+    "filters": {
+      "brand": "Bosch",
+      "type": "Grinder",
+      "powerSource": "Manual"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-23",
+    "name": "DeWalt Electric Screwdriver",
+    "price": 105,
+    "category": "tools",
+    "image": "https://surl.li/dilwmu",
+    "filters": {
+      "brand": "DeWalt",
+      "type": "Screwdriver",
+      "powerSource": "Electric"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-24",
+    "name": "Black+Decker Battery Saw",
+    "price": 130,
+    "category": "tools",
+    "image": "https://surl.lu/crdhsj",
+    "filters": {
+      "brand": "Black+Decker",
+      "type": "Saw",
+      "powerSource": "Battery"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-25",
+    "name": "Einhell Manual Drill",
+    "price": 50,
+    "category": "tools",
+    "image": "https://surl.li/qtkggb",
+    "filters": {
+      "brand": "Einhell",
+      "type": "Drill",
+      "powerSource": "Manual"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-26",
+    "name": "Makita Electric Grinder",
+    "price": 98,
+    "category": "tools",
+    "image": "https://surl.li/pwcyrw",
+    "filters": {
+      "brand": "Makita",
+      "type": "Grinder",
+      "powerSource": "Electric"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-27",
+    "name": "Bosch Battery Screwdriver",
+    "price": 90,
+    "category": "tools",
+    "image": "https://surl.li/gxpvpi",
+    "filters": {
+      "brand": "Bosch",
+      "type": "Screwdriver",
+      "powerSource": "Battery"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-28",
+    "name": "DeWalt Manual Saw",
+    "price": 55,
+    "category": "tools",
+    "image": "https://surl.lu/jydumd",
+    "filters": {
+      "brand": "DeWalt",
+      "type": "Saw",
+      "powerSource": "Manual"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-29",
+    "name": "Black+Decker Cordless Drill",
+    "price": 115,
+    "category": "tools",
+    "image": "https://surl.li/dilwmu",
+    "filters": {
+      "brand": "Black+Decker",
+      "type": "Drill",
+      "powerSource": "Battery"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tools-30",
+    "name": "Einhell Electric Grinder",
+    "price": 105,
+    "category": "tools",
+    "image": "https://surl.lu/crdhsj",
+    "filters": {
+      "brand": "Einhell",
+      "type": "Grinder",
+      "powerSource": "Electric"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  }
+]

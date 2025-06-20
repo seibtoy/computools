@@ -1,0 +1,512 @@
+[
+  {
+    "id": "large-1",
+    "name": "Samsung EcoBubble Washer",
+    "price": 699,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/utuats",
+    "filters": {
+      "brand": "Samsung",
+      "type": "Washing Machine",
+      "color": "White"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-2",
+    "name": "LG InstaView Fridge",
+    "price": 1199,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/svezey",
+    "filters": {
+      "brand": "LG",
+      "type": "Fridge",
+      "color": "Silver"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-3",
+    "name": "Bosch SilencePlus Dishwasher",
+    "price": 849,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/yxlwjc",
+    "filters": {
+      "brand": "Bosch",
+      "type": "Dishwasher",
+      "color": "Grey"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-4",
+    "name": "Whirlpool Heat Pump Dryer",
+    "price": 699,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/luuzaj",
+    "filters": {
+      "brand": "Whirlpool",
+      "type": "Dryer",
+      "color": "White"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "large-5",
+    "name": "Electrolux UltimateCare Washer",
+    "price": 649,
+    "category": "largeAppliances",
+    "image": "https://surl.li/evvlgc",
+    "filters": {
+      "brand": "Electrolux",
+      "type": "Washing Machine",
+      "color": "Black"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-6",
+    "name": "Samsung Twin Cooling Fridge",
+    "price": 999,
+    "category": "largeAppliances",
+    "image": "https://surl.li/pdxylh",
+    "filters": {
+      "brand": "Samsung",
+      "type": "Fridge",
+      "color": "Silver"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-7",
+    "name": "LG QuadWash Dishwasher",
+    "price": 779,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/utuats",
+    "filters": {
+      "brand": "LG",
+      "type": "Dishwasher",
+      "color": "White"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "large-8",
+    "name": "Bosch Series 8 Dryer",
+    "price": 899,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/svezey",
+    "filters": {
+      "brand": "Bosch",
+      "type": "Dryer",
+      "color": "Grey"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "large-9",
+    "name": "Whirlpool FreshCare Washer",
+    "price": 599,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/yxlwjc",
+    "filters": {
+      "brand": "Whirlpool",
+      "type": "Washing Machine",
+      "color": "Black"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-10",
+    "name": "Electrolux ComfortLift Dishwasher",
+    "price": 729,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/luuzaj",
+    "filters": {
+      "brand": "Electrolux",
+      "type": "Dishwasher",
+      "color": "Silver"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "large-11",
+    "name": "Samsung DV90T Dryer",
+    "price": 899,
+    "category": "largeAppliances",
+    "image": "https://surl.li/evvlgc",
+    "filters": {
+      "brand": "Samsung",
+      "type": "Dryer",
+      "color": "White"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-12",
+    "name": "LG DirectDrive Washer",
+    "price": 679,
+    "category": "largeAppliances",
+    "image": "https://surl.li/pdxylh",
+    "filters": {
+      "brand": "LG",
+      "type": "Washing Machine",
+      "color": "Grey"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-13",
+    "name": "Bosch VitaFresh Fridge",
+    "price": 1050,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/utuats",
+    "filters": {
+      "brand": "Bosch",
+      "type": "Fridge",
+      "color": "Silver"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "large-14",
+    "name": "Whirlpool SupremeCare Washer",
+    "price": 749,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/svezey",
+    "filters": {
+      "brand": "Whirlpool",
+      "type": "Washing Machine",
+      "color": "White"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-15",
+    "name": "Electrolux DryCare Dryer",
+    "price": 899,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/yxlwjc",
+    "filters": {
+      "brand": "Electrolux",
+      "type": "Dryer",
+      "color": "Black"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "large-16",
+    "name": "Samsung Digital Inverter Fridge",
+    "price": 1099,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/luuzaj",
+    "filters": {
+      "brand": "Samsung",
+      "type": "Fridge",
+      "color": "Grey"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "large-17",
+    "name": "LG Steam Dishwasher",
+    "price": 799,
+    "category": "largeAppliances",
+    "image": "https://surl.li/evvlgc",
+    "filters": {
+      "brand": "LG",
+      "type": "Dishwasher",
+      "color": "Black"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-18",
+    "name": "Bosch EcoDry Dryer",
+    "price": 870,
+    "category": "largeAppliances",
+    "image": "https://surl.li/pdxylh",
+    "filters": {
+      "brand": "Bosch",
+      "type": "Dryer",
+      "color": "White"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "large-19",
+    "name": "Whirlpool 6th Sense Fridge",
+    "price": 990,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/utuats",
+    "filters": {
+      "brand": "Whirlpool",
+      "type": "Fridge",
+      "color": "Silver"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-20",
+    "name": "Electrolux SteamCare Washer",
+    "price": 850,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/svezey",
+    "filters": {
+      "brand": "Electrolux",
+      "type": "Washing Machine",
+      "color": "Grey"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-21",
+    "name": "Samsung Crystal Dishwasher",
+    "price": 730,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/yxlwjc",
+    "filters": {
+      "brand": "Samsung",
+      "type": "Dishwasher",
+      "color": "Black"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "large-22",
+    "name": "LG TurboDry Dryer",
+    "price": 770,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/luuzaj",
+    "filters": {
+      "brand": "LG",
+      "type": "Dryer",
+      "color": "White"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-23",
+    "name": "Bosch i-DOS Washer",
+    "price": 880,
+    "category": "largeAppliances",
+    "image": "https://surl.li/evvlgc",
+    "filters": {
+      "brand": "Bosch",
+      "type": "Washing Machine",
+      "color": "Silver"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-24",
+    "name": "Whirlpool MaxDry Dryer",
+    "price": 810,
+    "category": "largeAppliances",
+    "image": "https://surl.li/pdxylh",
+    "filters": {
+      "brand": "Whirlpool",
+      "type": "Dryer",
+      "color": "Grey"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "large-25",
+    "name": "Electrolux PerfectCare Dryer",
+    "price": 860,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/utuats",
+    "filters": {
+      "brand": "Electrolux",
+      "type": "Dryer",
+      "color": "Black"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-26",
+    "name": "Samsung Family Hub Fridge",
+    "price": 1499,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/svezey",
+    "filters": {
+      "brand": "Samsung",
+      "type": "Fridge",
+      "color": "Black"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-27",
+    "name": "LG SlimQ Dishwasher",
+    "price": 760,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/yxlwjc",
+    "filters": {
+      "brand": "LG",
+      "type": "Dishwasher",
+      "color": "Silver"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-28",
+    "name": "Bosch AutoDry Washer",
+    "price": 870,
+    "category": "largeAppliances",
+    "image": "https://surl.lu/luuzaj",
+    "filters": {
+      "brand": "Bosch",
+      "type": "Washing Machine",
+      "color": "Grey"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "large-29",
+    "name": "Whirlpool Slimline Dishwasher",
+    "price": 715,
+    "category": "largeAppliances",
+    "image": "https://surl.li/evvlgc",
+    "filters": {
+      "brand": "Whirlpool",
+      "type": "Dishwasher",
+      "color": "White"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "large-30",
+    "name": "Electrolux SmartSense Fridge",
+    "price": 980,
+    "category": "largeAppliances",
+    "image": "https://surl.li/pdxylh",
+    "filters": {
+      "brand": "Electrolux",
+      "type": "Fridge",
+      "color": "Silver"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  }
+]

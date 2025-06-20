@@ -1,0 +1,512 @@
+[
+  {
+    "id": "gaming-1",
+    "name": "PlayStation 5 Console",
+    "price": 499,
+    "category": "gamingProducts",
+    "image": "https://surl.li/gnwnpg",
+    "filters": {
+      "brand": "Sony",
+      "platform": "PlayStation",
+      "type": "Console"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "gaming-2",
+    "name": "Xbox Series X",
+    "price": 499,
+    "category": "gamingProducts",
+    "image": "https://surl.li/rrncqr",
+    "filters": {
+      "brand": "Microsoft",
+      "platform": "Xbox",
+      "type": "Console"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "gaming-3",
+    "name": "Nintendo Switch OLED",
+    "price": 349,
+    "category": "gamingProducts",
+    "image": "https://surl.li/uduhtr",
+    "filters": {
+      "brand": "Nintendo",
+      "platform": "Nintendo Switch",
+      "type": "Console"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "gaming-4",
+    "name": "Logitech G Pro X Keyboard",
+    "price": 129,
+    "category": "gamingProducts",
+    "image": "https://surl.li/rtloty",
+    "filters": {
+      "brand": "Logitech",
+      "platform": "PC",
+      "type": "Keyboard"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-5",
+    "name": "Razer DeathAdder V2",
+    "price": 69,
+    "category": "gamingProducts",
+    "image": "https://surl.li/dqfgxz",
+    "filters": {
+      "brand": "Razer",
+      "platform": "PC",
+      "type": "Mouse"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-6",
+    "name": "HyperX Cloud II Headset",
+    "price": 99,
+    "category": "gamingProducts",
+    "image": "https://surl.lt/vnmqnj",
+    "filters": {
+      "brand": "HyperX",
+      "platform": "PC",
+      "type": "Headset"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-7",
+    "name": "DualSense Wireless Controller",
+    "price": 69,
+    "category": "gamingProducts",
+    "image": "https://surl.li/gnwnpg",
+    "filters": {
+      "brand": "Sony",
+      "platform": "PlayStation",
+      "type": "Gamepad"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-8",
+    "name": "Xbox Wireless Controller",
+    "price": 59,
+    "category": "gamingProducts",
+    "image": "https://surl.li/rrncqr",
+    "filters": {
+      "brand": "Microsoft",
+      "platform": "Xbox",
+      "type": "Gamepad"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-9",
+    "name": "Nintendo Switch Pro Controller",
+    "price": 69,
+    "category": "gamingProducts",
+    "image": "https://surl.li/uduhtr",
+    "filters": {
+      "brand": "Nintendo",
+      "platform": "Nintendo Switch",
+      "type": "Gamepad"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-10",
+    "name": "Logitech G502 HERO",
+    "price": 79,
+    "category": "gamingProducts",
+    "image": "https://surl.li/rtloty",
+    "filters": {
+      "brand": "Logitech",
+      "platform": "PC",
+      "type": "Mouse"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-11",
+    "name": "Razer BlackWidow V3",
+    "price": 149,
+    "category": "gamingProducts",
+    "image": "https://surl.li/dqfgxz",
+    "filters": {
+      "brand": "Razer",
+      "platform": "PC",
+      "type": "Keyboard"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-12",
+    "name": "HyperX Alloy Origins",
+    "price": 109,
+    "category": "gamingProducts",
+    "image": "https://surl.lt/vnmqnj",
+    "filters": {
+      "brand": "HyperX",
+      "platform": "PC",
+      "type": "Keyboard"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-13",
+    "name": "PlayStation Pulse 3D Headset",
+    "price": 99,
+    "category": "gamingProducts",
+    "image": "https://surl.li/gnwnpg",
+    "filters": {
+      "brand": "Sony",
+      "platform": "PlayStation",
+      "type": "Headset"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-14",
+    "name": "Xbox Stereo Headset",
+    "price": 59,
+    "category": "gamingProducts",
+    "image": "https://surl.li/rrncqr",
+    "filters": {
+      "brand": "Microsoft",
+      "platform": "Xbox",
+      "type": "Headset"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-15",
+    "name": "Razer Kraken Gaming Headset",
+    "price": 89,
+    "category": "gamingProducts",
+    "image": "https://surl.li/uduhtr",
+    "filters": {
+      "brand": "Razer",
+      "platform": "PC",
+      "type": "Headset"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-16",
+    "name": "Sony PlayStation VR2",
+    "price": 549,
+    "category": "gamingProducts",
+    "image": "https://surl.li/rtloty",
+    "filters": {
+      "brand": "Sony",
+      "platform": "PlayStation",
+      "type": "Headset"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "gaming-17",
+    "name": "Xbox Elite Wireless Controller Series 2",
+    "price": 179,
+    "category": "gamingProducts",
+    "image": "https://surl.li/dqfgxz",
+    "filters": {
+      "brand": "Microsoft",
+      "platform": "Xbox",
+      "type": "Gamepad"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-18",
+    "name": "Nintendo Joy-Con Set",
+    "price": 79,
+    "category": "gamingProducts",
+    "image": "https://surl.lt/vnmqnj",
+    "filters": {
+      "brand": "Nintendo",
+      "platform": "Nintendo Switch",
+      "type": "Gamepad"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-19",
+    "name": "Logitech G733 Wireless Headset",
+    "price": 149,
+    "category": "gamingProducts",
+    "image": "https://surl.li/gnwnpg",
+    "filters": {
+      "brand": "Logitech",
+      "platform": "PC",
+      "type": "Headset"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-20",
+    "name": "Razer Wolverine V2",
+    "price": 99,
+    "category": "gamingProducts",
+    "image": "https://surl.li/rrncqr",
+    "filters": {
+      "brand": "Razer",
+      "platform": "Xbox",
+      "type": "Gamepad"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-21",
+    "name": "HyperX Pulsefire FPS Pro",
+    "price": 59,
+    "category": "gamingProducts",
+    "image": "https://surl.li/uduhtr",
+    "filters": {
+      "brand": "HyperX",
+      "platform": "PC",
+      "type": "Mouse"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-22",
+    "name": "Sony PS5 HD Camera",
+    "price": 59,
+    "category": "gamingProducts",
+    "image": "https://surl.li/rtloty",
+    "filters": {
+      "brand": "Sony",
+      "platform": "PlayStation",
+      "type": "Accessory"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-23",
+    "name": "Xbox Rechargeable Battery + USB-C Cable",
+    "price": 24,
+    "category": "gamingProducts",
+    "image": "https://surl.li/dqfgxz",
+    "filters": {
+      "brand": "Microsoft",
+      "platform": "Xbox",
+      "type": "Accessory"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-24",
+    "name": "Nintendo Switch Charging Dock",
+    "price": 89,
+    "category": "gamingProducts",
+    "image": "https://surl.lt/vnmqnj",
+    "filters": {
+      "brand": "Nintendo",
+      "platform": "Nintendo Switch",
+      "type": "Accessory"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-25",
+    "name": "Logitech G29 Driving Force Racing Wheel",
+    "price": 299,
+    "category": "gamingProducts",
+    "image": "https://surl.li/gnwnpg",
+    "filters": {
+      "brand": "Logitech",
+      "platform": "PlayStation",
+      "type": "Accessory"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-26",
+    "name": "Razer Kishi V2 Mobile Controller",
+    "price": 99,
+    "category": "gamingProducts",
+    "image": "https://surl.li/rrncqr",
+    "filters": {
+      "brand": "Razer",
+      "platform": "PC",
+      "type": "Accessory"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-27",
+    "name": "HyperX ChargePlay Duo",
+    "price": 34,
+    "category": "gamingProducts",
+    "image": "https://surl.li/uduhtr",
+    "filters": {
+      "brand": "HyperX",
+      "platform": "PlayStation",
+      "type": "Accessory"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-28",
+    "name": "Sony DualShock 4 Controller",
+    "price": 49,
+    "category": "gamingProducts",
+    "image": "https://surl.li/rtloty",
+    "filters": {
+      "brand": "Sony",
+      "platform": "PlayStation",
+      "type": "Gamepad"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": true
+  },
+  {
+    "id": "gaming-29",
+    "name": "Xbox Series S",
+    "price": 299,
+    "category": "gamingProducts",
+    "image": "https://surl.li/dqfgxz",
+    "filters": {
+      "brand": "Microsoft",
+      "platform": "Xbox",
+      "type": "Console"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "gaming-30",
+    "name": "Nintendo Switch Lite",
+    "price": 199,
+    "category": "gamingProducts",
+    "image": "https://surl.lt/vnmqnj",
+    "filters": {
+      "brand": "Nintendo",
+      "platform": "Nintendo Switch",
+      "type": "Console"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  }
+]

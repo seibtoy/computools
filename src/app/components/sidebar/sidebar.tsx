@@ -33,7 +33,7 @@ export default function Sidebar() {
           const IconComponent = item.icon;
 
           return (
-            <Link href={item.path} key={index} passHref>
+            <Link href={item.path} key={index} scroll={false} passHref>
               <li className="flex items-center gap-4 h-15 max-lg:h-10 max-lg:bg-super-light-gray max-lg:px-4">
                 <div className="w-5 flex items-center justify-center">
                   <IconComponent color={index === sidebarData.length - 1 ? 'var(--color-red)' : 'var(--color-gray)'} />

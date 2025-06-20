@@ -1,0 +1,512 @@
+[
+  {
+    "id": "dishes-001",
+    "name": "Luminarc Glass Plates",
+    "price": 25.99,
+    "category": "dishes",
+    "image": "https://surl.li/qkneur",
+    "filters": {
+      "brand": "Luminarc",
+      "material": "Glass",
+      "type": "Plates"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-002",
+    "name": "IKEA Ceramic Bowls",
+    "price": 15.5,
+    "category": "dishes",
+    "image": "https://surl.li/cqfvhb",
+    "filters": {
+      "brand": "IKEA",
+      "material": "Ceramic",
+      "type": "Bowls"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-003",
+    "name": "Villeroy & Boch Porcelain Mugs",
+    "price": 40.0,
+    "category": "dishes",
+    "image": "https://surl.li/vhsrbh",
+    "filters": {
+      "brand": "Villeroy & Boch",
+      "material": "Porcelain",
+      "type": "Mugs"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-004",
+    "name": "Tefal Steel Cups",
+    "price": 18.75,
+    "category": "dishes",
+    "image": "https://surli.cc/gthysn",
+    "filters": {
+      "brand": "Tefal",
+      "material": "Steel",
+      "type": "Cups"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-005",
+    "name": "Corelle Porcelain Plates",
+    "price": 32.5,
+    "category": "dishes",
+    "image": "https://surl.lt/zpgfge",
+    "filters": {
+      "brand": "Corelle",
+      "material": "Porcelain",
+      "type": "Plates"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-006",
+    "name": "Luminarc Glass Bowls",
+    "price": 22.0,
+    "category": "dishes",
+    "image": "https://surl.li/kpzmzn",
+    "filters": {
+      "brand": "Luminarc",
+      "material": "Glass",
+      "type": "Bowls"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-007",
+    "name": "IKEA Ceramic Mugs",
+    "price": 14.25,
+    "category": "dishes",
+    "image": "https://surl.li/qkneur",
+    "filters": {
+      "brand": "IKEA",
+      "material": "Ceramic",
+      "type": "Mugs"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-008",
+    "name": "Villeroy & Boch Porcelain Cups",
+    "price": 42.0,
+    "category": "dishes",
+    "image": "https://surl.li/cqfvhb",
+    "filters": {
+      "brand": "Villeroy & Boch",
+      "material": "Porcelain",
+      "type": "Cups"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-009",
+    "name": "Tefal Steel Pans",
+    "price": 55.0,
+    "category": "dishes",
+    "image": "https://surl.li/vhsrbh",
+    "filters": {
+      "brand": "Tefal",
+      "material": "Steel",
+      "type": "Pans"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-010",
+    "name": "Corelle Porcelain Bowls",
+    "price": 28.0,
+    "category": "dishes",
+    "image": "https://surli.cc/gthysn",
+    "filters": {
+      "brand": "Corelle",
+      "material": "Porcelain",
+      "type": "Bowls"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-011",
+    "name": "Luminarc Glass Mugs",
+    "price": 20.0,
+    "category": "dishes",
+    "image": "https://surl.lt/zpgfge",
+    "filters": {
+      "brand": "Luminarc",
+      "material": "Glass",
+      "type": "Mugs"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-012",
+    "name": "IKEA Ceramic Cups",
+    "price": 16.75,
+    "category": "dishes",
+    "image": "https://surl.li/kpzmzn",
+    "filters": {
+      "brand": "IKEA",
+      "material": "Ceramic",
+      "type": "Cups"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-013",
+    "name": "Villeroy & Boch Porcelain Pans",
+    "price": 60.0,
+    "category": "dishes",
+    "image": "https://surl.li/qkneur",
+    "filters": {
+      "brand": "Villeroy & Boch",
+      "material": "Porcelain",
+      "type": "Pans"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-014",
+    "name": "Tefal Steel Plates",
+    "price": 30.0,
+    "category": "dishes",
+    "image": "https://surl.li/cqfvhb",
+    "filters": {
+      "brand": "Tefal",
+      "material": "Steel",
+      "type": "Plates"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-015",
+    "name": "Corelle Porcelain Mugs",
+    "price": 35.0,
+    "category": "dishes",
+    "image": "https://surl.li/vhsrbh",
+    "filters": {
+      "brand": "Corelle",
+      "material": "Porcelain",
+      "type": "Mugs"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-016",
+    "name": "Luminarc Glass Cups",
+    "price": 22.5,
+    "category": "dishes",
+    "image": "https://surli.cc/gthysn",
+    "filters": {
+      "brand": "Luminarc",
+      "material": "Glass",
+      "type": "Cups"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-017",
+    "name": "IKEA Ceramic Plates",
+    "price": 26.0,
+    "category": "dishes",
+    "image": "https://surl.lt/zpgfge",
+    "filters": {
+      "brand": "IKEA",
+      "material": "Ceramic",
+      "type": "Plates"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-018",
+    "name": "Villeroy & Boch Porcelain Bowls",
+    "price": 38.0,
+    "category": "dishes",
+    "image": "https://surl.li/kpzmzn",
+    "filters": {
+      "brand": "Villeroy & Boch",
+      "material": "Porcelain",
+      "type": "Bowls"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-019",
+    "name": "Tefal Steel Mugs",
+    "price": 19.0,
+    "category": "dishes",
+    "image": "https://surl.li/qkneur",
+    "filters": {
+      "brand": "Tefal",
+      "material": "Steel",
+      "type": "Mugs"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-020",
+    "name": "Corelle Porcelain Cups",
+    "price": 33.0,
+    "category": "dishes",
+    "image": "https://surl.li/cqfvhb",
+    "filters": {
+      "brand": "Corelle",
+      "material": "Porcelain",
+      "type": "Cups"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-021",
+    "name": "Luminarc Glass Pans",
+    "price": 60.0,
+    "category": "dishes",
+    "image": "https://surl.li/vhsrbh",
+    "filters": {
+      "brand": "Luminarc",
+      "material": "Glass",
+      "type": "Pans"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-022",
+    "name": "IKEA Ceramic Cups",
+    "price": 18.5,
+    "category": "dishes",
+    "image": "https://surli.cc/gthysn",
+    "filters": {
+      "brand": "IKEA",
+      "material": "Ceramic",
+      "type": "Cups"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-023",
+    "name": "Villeroy & Boch Porcelain Plates",
+    "price": 42.0,
+    "category": "dishes",
+    "image": "https://surl.lt/zpgfge",
+    "filters": {
+      "brand": "Villeroy & Boch",
+      "material": "Porcelain",
+      "type": "Plates"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-024",
+    "name": "Tefal Steel Bowls",
+    "price": 25.0,
+    "category": "dishes",
+    "image": "https://surl.li/kpzmzn",
+    "filters": {
+      "brand": "Tefal",
+      "material": "Steel",
+      "type": "Bowls"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-025",
+    "name": "Corelle Porcelain Pans",
+    "price": 65.0,
+    "category": "dishes",
+    "image": "https://surl.li/qkneur",
+    "filters": {
+      "brand": "Corelle",
+      "material": "Porcelain",
+      "type": "Pans"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-026",
+    "name": "Luminarc Glass Cups",
+    "price": 23.5,
+    "category": "dishes",
+    "image": "https://surl.li/cqfvhb",
+    "filters": {
+      "brand": "Luminarc",
+      "material": "Glass",
+      "type": "Cups"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-027",
+    "name": "IKEA Ceramic Mugs",
+    "price": 17.0,
+    "category": "dishes",
+    "image": "https://surl.li/vhsrbh",
+    "filters": {
+      "brand": "IKEA",
+      "material": "Ceramic",
+      "type": "Mugs"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-028",
+    "name": "Villeroy & Boch Porcelain Cups",
+    "price": 38.0,
+    "category": "dishes",
+    "image": "https://surli.cc/gthysn",
+    "filters": {
+      "brand": "Villeroy & Boch",
+      "material": "Porcelain",
+      "type": "Cups"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-029",
+    "name": "Tefal Steel Plates",
+    "price": 29.5,
+    "category": "dishes",
+    "image": "https://surl.lt/zpgfge",
+    "filters": {
+      "brand": "Tefal",
+      "material": "Steel",
+      "type": "Plates"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "dishes-030",
+    "name": "Corelle Porcelain Bowls",
+    "price": 30.0,
+    "category": "dishes",
+    "image": "https://surl.li/kpzmzn",
+    "filters": {
+      "brand": "Corelle",
+      "material": "Porcelain",
+      "type": "Bowls"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  }
+]

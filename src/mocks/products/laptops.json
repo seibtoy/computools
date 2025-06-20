@@ -1,0 +1,512 @@
+[
+  {
+    "id": "laptop-001",
+    "name": "MacBook Pro M3",
+    "price": 1999,
+    "category": "laptops",
+    "image": "https://surl.lt/iojyfr",
+    "filters": {
+      "brand": "Apple",
+      "diagonal": 16,
+      "colors": ["Grey"]
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-002",
+    "name": "Acer Swift 3",
+    "price": 899,
+    "category": "laptops",
+    "image": "https://surl.li/atodkq",
+    "filters": {
+      "brand": "Acer",
+      "diagonal": 14.1,
+      "colors": ["Grey"]
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-003",
+    "name": "Asus ZenBook 13",
+    "price": 999,
+    "category": "laptops",
+    "image": "https://surli.cc/ozhwie",
+    "filters": {
+      "brand": "Asus",
+      "diagonal": 13.3,
+      "colors": ["Blue"]
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-004",
+    "name": "Samsung Galaxy Book Pro",
+    "price": 1199,
+    "category": "laptops",
+    "image": "https://surl.lt/xfbohe",
+    "filters": {
+      "brand": "Samsung",
+      "diagonal": 15.6,
+      "colors": ["Black"]
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-005",
+    "name": "Dell XPS 15",
+    "price": 1499,
+    "category": "laptops",
+    "image": "https://surli.cc/skyjbs",
+    "filters": {
+      "brand": "Dell",
+      "diagonal": 15,
+      "colors": ["White"]
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-006",
+    "name": "LG Gram 17",
+    "price": 1699,
+    "category": "laptops",
+    "image": "https://surl.li/unyrrd",
+    "filters": {
+      "brand": "LG",
+      "diagonal": 17.3,
+      "colors": ["Black"]
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-007",
+    "name": "Lenovo ThinkPad X1",
+    "price": 1399,
+    "category": "laptops",
+    "image": "https://surl.lt/iojyfr",
+    "filters": {
+      "brand": "Lenovo",
+      "diagonal": 14.1,
+      "colors": ["Grey"]
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-008",
+    "name": "Huawei MateBook D16",
+    "price": 1099,
+    "category": "laptops",
+    "image": "https://surl.li/atodkq",
+    "filters": {
+      "brand": "Huawei",
+      "diagonal": 16,
+      "colors": ["Silver"]
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-009",
+    "name": "Toshiba Dynabook Tecra",
+    "price": 1049,
+    "category": "laptops",
+    "image": "https://surli.cc/ozhwie",
+    "filters": {
+      "brand": "Toshiba",
+      "diagonal": 15.6,
+      "colors": ["Blue"]
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-010",
+    "name": "MSI Prestige 14",
+    "price": 1149,
+    "category": "laptops",
+    "image": "https://surl.lt/xfbohe",
+    "filters": {
+      "brand": "MSI",
+      "diagonal": 14.1,
+      "colors": ["Purple"]
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-011",
+    "name": "Apple MacBook Air M2",
+    "price": 1299,
+    "category": "laptops",
+    "image": "https://surli.cc/skyjbs",
+    "filters": {
+      "brand": "Apple",
+      "diagonal": 13.3,
+      "colors": ["Grey"]
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-012",
+    "name": "Asus ROG Zephyrus G14",
+    "price": 1599,
+    "category": "laptops",
+    "image": "https://surl.li/unyrrd",
+    "filters": {
+      "brand": "Asus",
+      "diagonal": 14.1,
+      "colors": ["Red"]
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-013",
+    "name": "Samsung Galaxy Book Flex",
+    "price": 1299,
+    "category": "laptops",
+    "image": "https://surl.lt/iojyfr",
+    "filters": {
+      "brand": "Samsung",
+      "diagonal": 13.3,
+      "colors": ["Blue"]
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-014",
+    "name": "Lenovo Yoga Slim 7",
+    "price": 999,
+    "category": "laptops",
+    "image": "https://surl.li/atodkq",
+    "filters": {
+      "brand": "Lenovo",
+      "diagonal": 15.6,
+      "colors": ["Green"]
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-015",
+    "name": "Toshiba Satellite Pro",
+    "price": 899,
+    "category": "laptops",
+    "image": "https://surli.cc/ozhwie",
+    "filters": {
+      "brand": "Toshiba",
+      "diagonal": 15.4,
+      "colors": ["White"]
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-016",
+    "name": "MSI Stealth 16",
+    "price": 1799,
+    "category": "laptops",
+    "image": "https://surl.lt/xfbohe",
+    "filters": {
+      "brand": "MSI",
+      "diagonal": 16,
+      "colors": ["Black"]
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-017",
+    "name": "LG Ultra PC 13",
+    "price": 899,
+    "category": "laptops",
+    "image": "https://surli.cc/skyjbs",
+    "filters": {
+      "brand": "LG",
+      "diagonal": 13.3,
+      "colors": ["Orange"]
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-018",
+    "name": "Huawei MateBook X Pro",
+    "price": 1399,
+    "category": "laptops",
+    "image": "https://surl.li/unyrrd",
+    "filters": {
+      "brand": "Huawei",
+      "diagonal": 14.1,
+      "colors": ["Grey"]
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-019",
+    "name": "Acer Aspire 5",
+    "price": 749,
+    "category": "laptops",
+    "image": "https://surl.lt/iojyfr",
+    "filters": {
+      "brand": "Acer",
+      "diagonal": 15.6,
+      "colors": ["Red"]
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-020",
+    "name": "Apple MacBook Pro 14 M3",
+    "price": 2199,
+    "category": "laptops",
+    "image": "https://surl.li/atodkq",
+    "filters": {
+      "brand": "Apple",
+      "diagonal": 14.1,
+      "colors": ["Grey"]
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-021",
+    "name": "Asus VivoBook 15",
+    "price": 699,
+    "category": "laptops",
+    "image": "https://surli.cc/ozhwie",
+    "filters": {
+      "brand": "Asus",
+      "diagonal": 15.4,
+      "colors": ["Yellow"]
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-022",
+    "name": "Dell Inspiron 14",
+    "price": 849,
+    "category": "laptops",
+    "image": "https://surl.lt/xfbohe",
+    "filters": {
+      "brand": "Dell",
+      "diagonal": 14.1,
+      "colors": ["Green"]
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-023",
+    "name": "Samsung Notebook 9",
+    "price": 999,
+    "category": "laptops",
+    "image": "https://surli.cc/skyjbs",
+    "filters": {
+      "brand": "Samsung",
+      "diagonal": 15,
+      "colors": ["Purple"]
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-024",
+    "name": "Lenovo IdeaPad Flex 5",
+    "price": 849,
+    "category": "laptops",
+    "image": "https://surl.li/unyrrd",
+    "filters": {
+      "brand": "Lenovo",
+      "diagonal": 15.6,
+      "colors": ["Orange"]
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-025",
+    "name": "Toshiba Portege Z30",
+    "price": 1099,
+    "category": "laptops",
+    "image": "https://surl.lt/iojyfr",
+    "filters": {
+      "brand": "Toshiba",
+      "diagonal": 13.3,
+      "colors": ["Black"]
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-026",
+    "name": "MSI Creator Z16",
+    "price": 1899,
+    "category": "laptops",
+    "image": "https://surl.li/atodkq",
+    "filters": {
+      "brand": "MSI",
+      "diagonal": 16,
+      "colors": ["Grey"]
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-027",
+    "name": "Huawei MateBook 14s",
+    "price": 1199,
+    "category": "laptops",
+    "image": "https://surli.cc/ozhwie",
+    "filters": {
+      "brand": "Huawei",
+      "diagonal": 14.1,
+      "colors": ["Blue"]
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-028",
+    "name": "LG Gram Style",
+    "price": 1499,
+    "category": "laptops",
+    "image": "https://surl.lt/xfbohe",
+    "filters": {
+      "brand": "LG",
+      "diagonal": 16,
+      "colors": ["White"]
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-029",
+    "name": "Acer Spin 5",
+    "price": 1050,
+    "category": "laptops",
+    "image": "https://surli.cc/skyjbs",
+    "filters": {
+      "brand": "Acer",
+      "diagonal": 13.3,
+      "colors": ["Grey"]
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "laptop-030",
+    "name": "Asus TUF Gaming F15",
+    "price": 1199,
+    "category": "laptops",
+    "image": "https://surl.li/unyrrd",
+    "filters": {
+      "brand": "Asus",
+      "diagonal": 15.6,
+      "colors": ["Black"]
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  }
+]

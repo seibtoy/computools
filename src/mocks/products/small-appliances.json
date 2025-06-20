@@ -1,0 +1,512 @@
+[
+  {
+    "id": "small-1",
+    "name": "Philips Daily Toaster",
+    "price": 49,
+    "category": "smallAppliances",
+    "image": "https://surl.li/khtdlw",
+    "filters": {
+      "brand": "Philips",
+      "type": "Toaster",
+      "power": "800W"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-2",
+    "name": "Panasonic Electric Kettle",
+    "price": 35,
+    "category": "smallAppliances",
+    "image": "https://surl.lt/ruaxnx",
+    "filters": {
+      "brand": "Panasonic",
+      "type": "Kettle",
+      "power": "1500W"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-3",
+    "name": "Tefal Kitchen Blender",
+    "price": 79,
+    "category": "smallAppliances",
+    "image": "https://surl.lu/ygfubq",
+    "filters": {
+      "brand": "Tefal",
+      "type": "Blender",
+      "power": "1000W"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-4",
+    "name": "Xiaomi Smart Coffee Maker",
+    "price": 129,
+    "category": "smallAppliances",
+    "image": "https://surl.li/sgpmzy",
+    "filters": {
+      "brand": "Xiaomi",
+      "type": "Coffee Maker",
+      "power": "1200W"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "small-5",
+    "name": "Braun Hair Dryer Pro",
+    "price": 45,
+    "category": "smallAppliances",
+    "image": "https://surl.li/rhvket",
+    "filters": {
+      "brand": "Braun",
+      "type": "Hair Dryer",
+      "power": "1500W"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-6",
+    "name": "Philips Rapid Toaster",
+    "price": 55,
+    "category": "smallAppliances",
+    "image": "https://surl.li/vmlcbj",
+    "filters": {
+      "brand": "Philips",
+      "type": "Toaster",
+      "power": "600W"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-7",
+    "name": "Panasonic Fast Kettle",
+    "price": 39,
+    "category": "smallAppliances",
+    "image": "https://surl.li/khtdlw",
+    "filters": {
+      "brand": "Panasonic",
+      "type": "Kettle",
+      "power": "1000W"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "small-8",
+    "name": "Tefal Power Blender",
+    "price": 85,
+    "category": "smallAppliances",
+    "image": "https://surl.lt/ruaxnx",
+    "filters": {
+      "brand": "Tefal",
+      "type": "Blender",
+      "power": "1200W"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-9",
+    "name": "Xiaomi Coffee Maker Pro",
+    "price": 139,
+    "category": "smallAppliances",
+    "image": "https://surl.lu/ygfubq",
+    "filters": {
+      "brand": "Xiaomi",
+      "type": "Coffee Maker",
+      "power": "1500W"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-10",
+    "name": "Braun Salon Hair Dryer",
+    "price": 49,
+    "category": "smallAppliances",
+    "image": "https://surl.li/sgpmzy",
+    "filters": {
+      "brand": "Braun",
+      "type": "Hair Dryer",
+      "power": "1200W"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "small-11",
+    "name": "Philips Classic Toaster",
+    "price": 50,
+    "category": "smallAppliances",
+    "image": "https://surl.li/rhvket",
+    "filters": {
+      "brand": "Philips",
+      "type": "Toaster",
+      "power": "800W"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-12",
+    "name": "Panasonic Smart Kettle",
+    "price": 42,
+    "category": "smallAppliances",
+    "image": "https://surl.li/vmlcbj",
+    "filters": {
+      "brand": "Panasonic",
+      "type": "Kettle",
+      "power": "600W"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-13",
+    "name": "Tefal Blend Master",
+    "price": 90,
+    "category": "smallAppliances",
+    "image": "https://surl.li/khtdlw",
+    "filters": {
+      "brand": "Tefal",
+      "type": "Blender",
+      "power": "1000W"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "small-14",
+    "name": "Xiaomi Espresso Coffee Maker",
+    "price": 149,
+    "category": "smallAppliances",
+    "image": "https://surl.lt/ruaxnx",
+    "filters": {
+      "brand": "Xiaomi",
+      "type": "Coffee Maker",
+      "power": "800W"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-15",
+    "name": "Braun Professional Hair Dryer",
+    "price": 55,
+    "category": "smallAppliances",
+    "image": "https://surl.lu/ygfubq",
+    "filters": {
+      "brand": "Braun",
+      "type": "Hair Dryer",
+      "power": "1000W"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-16",
+    "name": "Philips Quick Toast Toaster",
+    "price": 53,
+    "category": "smallAppliances",
+    "image": "https://surl.lu/ygfubq",
+    "filters": {
+      "brand": "Philips",
+      "type": "Toaster",
+      "power": "700W"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-17",
+    "name": "Panasonic Pro Kettle",
+    "price": 44,
+    "category": "smallAppliances",
+    "image": "https://surl.li/sgpmzy",
+    "filters": {
+      "brand": "Panasonic",
+      "type": "Kettle",
+      "power": "1400W"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "small-18",
+    "name": "Tefal Turbo Blender",
+    "price": 83,
+    "category": "smallAppliances",
+    "image": "https://surl.li/rhvket",
+    "filters": {
+      "brand": "Tefal",
+      "type": "Blender",
+      "power": "1100W"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-19",
+    "name": "Xiaomi Smartbrew Coffee Maker",
+    "price": 132,
+    "category": "smallAppliances",
+    "image": "https://surl.li/vmlcbj",
+    "filters": {
+      "brand": "Xiaomi",
+      "type": "Coffee Maker",
+      "power": "1000W"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "small-20",
+    "name": "Braun Compact Hair Dryer",
+    "price": 47,
+    "category": "smallAppliances",
+    "image": "https://surl.li/khtdlw",
+    "filters": {
+      "brand": "Braun",
+      "type": "Hair Dryer",
+      "power": "1300W"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-21",
+    "name": "Philips Express Toaster",
+    "price": 52,
+    "category": "smallAppliances",
+    "image": "https://surl.lt/ruaxnx",
+    "filters": {
+      "brand": "Philips",
+      "type": "Toaster",
+      "power": "850W"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-22",
+    "name": "Panasonic Eco Kettle",
+    "price": 37,
+    "category": "smallAppliances",
+    "image": "https://surl.lu/ygfubq",
+    "filters": {
+      "brand": "Panasonic",
+      "type": "Kettle",
+      "power": "900W"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "small-23",
+    "name": "Tefal Max Blend Blender",
+    "price": 88,
+    "category": "smallAppliances",
+    "image": "https://surl.li/sgpmzy",
+    "filters": {
+      "brand": "Tefal",
+      "type": "Blender",
+      "power": "1300W"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-24",
+    "name": "Xiaomi Aroma Coffee Maker",
+    "price": 140,
+    "category": "smallAppliances",
+    "image": "https://surl.li/rhvket",
+    "filters": {
+      "brand": "Xiaomi",
+      "type": "Coffee Maker",
+      "power": "1200W"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-25",
+    "name": "Braun Turbo Hair Dryer",
+    "price": 50,
+    "category": "smallAppliances",
+    "image": "https://surl.li/vmlcbj",
+    "filters": {
+      "brand": "Braun",
+      "type": "Hair Dryer",
+      "power": "1400W"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "small-26",
+    "name": "Philips Premium Toaster",
+    "price": 58,
+    "category": "smallAppliances",
+    "image": "https://surl.li/khtdlw",
+    "filters": {
+      "brand": "Philips",
+      "type": "Toaster",
+      "power": "900W"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-27",
+    "name": "Panasonic Quick Kettle",
+    "price": 41,
+    "category": "smallAppliances",
+    "image": "https://surl.lt/ruaxnx",
+    "filters": {
+      "brand": "Panasonic",
+      "type": "Kettle",
+      "power": "1100W"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-28",
+    "name": "Tefal Blend Expert Blender",
+    "price": 92,
+    "category": "smallAppliances",
+    "image": "https://surl.lu/ygfubq",
+    "filters": {
+      "brand": "Tefal",
+      "type": "Blender",
+      "power": "1400W"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "small-29",
+    "name": "Xiaomi Smart Brew Coffee Maker",
+    "price": 138,
+    "category": "smallAppliances",
+    "image": "https://surl.li/sgpmzy",
+    "filters": {
+      "brand": "Xiaomi",
+      "type": "Coffee Maker",
+      "power": "1300W"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "small-30",
+    "name": "Braun Advanced Hair Dryer",
+    "price": 52,
+    "category": "smallAppliances",
+    "image": "https://surl.li/rhvket",
+    "filters": {
+      "brand": "Braun",
+      "type": "Hair Dryer",
+      "power": "1500W"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  }
+]

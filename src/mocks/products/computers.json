@@ -1,0 +1,512 @@
+[
+  {
+    "id": "comp-001",
+    "name": "Apple iMac 24 M1",
+    "price": 1599,
+    "category": "computers",
+    "image": "https://surl.li/ptfhyg",
+    "filters": {
+      "brand": "Apple",
+      "cpu": "Intel i5",
+      "ram": "16GB"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-002",
+    "name": "HP Envy Desktop",
+    "price": 999,
+    "category": "computers",
+    "image": "https://surl.lu/nzeqay",
+    "filters": {
+      "brand": "HP",
+      "cpu": "Ryzen 7",
+      "ram": "32GB"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-003",
+    "name": "Asus ROG Strix G15DK",
+    "price": 1399,
+    "category": "computers",
+    "image": "https://surl.li/ldtigb",
+    "filters": {
+      "brand": "Asus",
+      "cpu": "Ryzen 9",
+      "ram": "64GB"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-004",
+    "name": "Dell XPS Desktop",
+    "price": 1299,
+    "category": "computers",
+    "image": "https://surl.li/fufoug",
+    "filters": {
+      "brand": "Dell",
+      "cpu": "Intel i7",
+      "ram": "32GB"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-005",
+    "name": "Lenovo Legion T5",
+    "price": 1149,
+    "category": "computers",
+    "image": "https://surli.cc/dkeqsr",
+    "filters": {
+      "brand": "Lenovo",
+      "cpu": "Ryzen 5",
+      "ram": "16GB"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-006",
+    "name": "Acer Aspire TC",
+    "price": 699,
+    "category": "computers",
+    "image": "https://surli.cc/tzrvxq",
+    "filters": {
+      "brand": "Acer",
+      "cpu": "Intel i5",
+      "ram": "8GB"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-007",
+    "name": "Apple Mac Studio M2",
+    "price": 1999,
+    "category": "computers",
+    "image": "https://surl.li/ptfhyg",
+    "filters": {
+      "brand": "Apple",
+      "cpu": "Intel i7",
+      "ram": "32GB"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-008",
+    "name": "HP Pavilion Gaming Desktop",
+    "price": 849,
+    "category": "computers",
+    "image": "https://surl.lu/nzeqay",
+    "filters": {
+      "brand": "HP",
+      "cpu": "Ryzen 5",
+      "ram": "16GB"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-009",
+    "name": "Asus ProArt Station D940MX",
+    "price": 1499,
+    "category": "computers",
+    "image": "https://surl.li/ldtigb",
+    "filters": {
+      "brand": "Asus",
+      "cpu": "Intel i9",
+      "ram": "64GB"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-010",
+    "name": "Dell G5 Gaming Desktop",
+    "price": 1099,
+    "category": "computers",
+    "image": "https://surl.li/fufoug",
+    "filters": {
+      "brand": "Dell",
+      "cpu": "Ryzen 7",
+      "ram": "32GB"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-011",
+    "name": "Lenovo IdeaCentre 5",
+    "price": 799,
+    "category": "computers",
+    "image": "https://surli.cc/dkeqsr",
+    "filters": {
+      "brand": "Lenovo",
+      "cpu": "Intel i5",
+      "ram": "8GB"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-012",
+    "name": "Acer Predator Orion 3000",
+    "price": 1299,
+    "category": "computers",
+    "image": "https://surli.cc/tzrvxq",
+    "filters": {
+      "brand": "Acer",
+      "cpu": "Intel i7",
+      "ram": "16GB"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-013",
+    "name": "Apple Mac Mini M2",
+    "price": 699,
+    "category": "computers",
+    "image": "https://surl.li/ptfhyg",
+    "filters": {
+      "brand": "Apple",
+      "cpu": "Intel i5",
+      "ram": "8GB"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-014",
+    "name": "HP Omen 45L",
+    "price": 1699,
+    "category": "computers",
+    "image": "https://surl.lu/nzeqay",
+    "filters": {
+      "brand": "HP",
+      "cpu": "Intel i9",
+      "ram": "64GB"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-015",
+    "name": "Lenovo ThinkCentre M70s",
+    "price": 949,
+    "category": "computers",
+    "image": "https://surl.li/ldtigb",
+    "filters": {
+      "brand": "Lenovo",
+      "cpu": "Intel i7",
+      "ram": "16GB"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-016",
+    "name": "Asus ExpertCenter D500",
+    "price": 799,
+    "category": "computers",
+    "image": "https://surl.li/fufoug",
+    "filters": {
+      "brand": "Asus",
+      "cpu": "Intel i5",
+      "ram": "16GB"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-017",
+    "name": "Dell Precision 3650",
+    "price": 1899,
+    "category": "computers",
+    "image": "https://surli.cc/dkeqsr",
+    "filters": {
+      "brand": "Dell",
+      "cpu": "Intel i9",
+      "ram": "64GB"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-018",
+    "name": "HP Z2 G9 Tower",
+    "price": 1449,
+    "category": "computers",
+    "image": "https://surli.cc/tzrvxq",
+    "filters": {
+      "brand": "HP",
+      "cpu": "Intel i7",
+      "ram": "32GB"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-019",
+    "name": "Lenovo ThinkStation P360",
+    "price": 1199,
+    "category": "computers",
+    "image": "https://surl.li/ptfhyg",
+    "filters": {
+      "brand": "Lenovo",
+      "cpu": "Intel i7",
+      "ram": "16GB"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-020",
+    "name": "Acer Veriton M6680G",
+    "price": 949,
+    "category": "computers",
+    "image": "https://surl.lu/nzeqay",
+    "filters": {
+      "brand": "Acer",
+      "cpu": "Ryzen 5",
+      "ram": "16GB"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-021",
+    "name": "Apple Mac Pro 2023",
+    "price": 5999,
+    "category": "computers",
+    "image": "https://surl.li/ldtigb",
+    "filters": {
+      "brand": "Apple",
+      "cpu": "Intel i9",
+      "ram": "64GB"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-022",
+    "name": "HP EliteDesk 800 G9",
+    "price": 899,
+    "category": "computers",
+    "image": "https://surl.li/fufoug",
+    "filters": {
+      "brand": "HP",
+      "cpu": "Intel i5",
+      "ram": "8GB"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-023",
+    "name": "Asus Mini PC PN63",
+    "price": 599,
+    "category": "computers",
+    "image": "https://surli.cc/dkeqsr",
+    "filters": {
+      "brand": "Asus",
+      "cpu": "Intel i7",
+      "ram": "16GB"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-024",
+    "name": "Dell Vostro 3910",
+    "price": 749,
+    "category": "computers",
+    "image": "https://surli.cc/tzrvxq",
+    "filters": {
+      "brand": "Dell",
+      "cpu": "Intel i5",
+      "ram": "8GB"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-025",
+    "name": "Lenovo Yoga AIO 7",
+    "price": 1399,
+    "category": "computers",
+    "image": "https://surl.li/ptfhyg",
+    "filters": {
+      "brand": "Lenovo",
+      "cpu": "Ryzen 7",
+      "ram": "32GB"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-026",
+    "name": "Acer Nitro 50",
+    "price": 999,
+    "category": "computers",
+    "image": "https://surl.lu/nzeqay",
+    "filters": {
+      "brand": "Acer",
+      "cpu": "Ryzen 7",
+      "ram": "32GB"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-027",
+    "name": "Apple Mac Studio Max",
+    "price": 2499,
+    "category": "computers",
+    "image": "https://surl.li/ldtigb",
+    "filters": {
+      "brand": "Apple",
+      "cpu": "Intel i7",
+      "ram": "32GB"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-028",
+    "name": "HP Slim Desktop S01",
+    "price": 549,
+    "category": "computers",
+    "image": "https://surl.li/fufoug",
+    "filters": {
+      "brand": "HP",
+      "cpu": "Intel i5",
+      "ram": "8GB"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-029",
+    "name": "Asus Chromebox 4",
+    "price": 369,
+    "category": "computers",
+    "image": "https://surli.cc/dkeqsr",
+    "filters": {
+      "brand": "Asus",
+      "cpu": "Intel i5",
+      "ram": "8GB"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "comp-030",
+    "name": "Dell Inspiron 3020",
+    "price": 859,
+    "category": "computers",
+    "image": "https://surli.cc/tzrvxq",
+    "filters": {
+      "brand": "Dell",
+      "cpu": "Ryzen 5",
+      "ram": "16GB"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  }
+]

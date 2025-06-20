@@ -1,9 +1,9 @@
-import Banner from '@/app/(pages)/(homepage)/banner';
+import CardsSlider from '@/app/components/cards-slider/cards-slider';
 
 export default function Homepage() {
   return (
     <div>
-      <Banner />
+      <CardsSlider />
     </div>
   );
 }

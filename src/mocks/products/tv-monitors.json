@@ -1,0 +1,512 @@
+[
+  {
+    "id": "tvmonitor-1",
+    "name": "Samsung Crystal UHD 4K 55”",
+    "price": 599,
+    "category": "tvMonitors",
+    "image": "https://surli.cc/nwamuk",
+    "filters": {
+      "brand": "Samsung",
+      "screenSize": "55\"",
+      "resolution": "4K"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-2",
+    "name": "LG UltraFine 32” 4K Monitor",
+    "price": 399,
+    "category": "tvMonitors",
+    "image": "https://surl.li/hphioh",
+    "filters": {
+      "brand": "LG",
+      "screenSize": "32\"",
+      "resolution": "4K"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-3",
+    "name": "Sony Bravia 65” 4K",
+    "price": 799,
+    "category": "tvMonitors",
+    "image": "https://surl.li/lchqqt",
+    "filters": {
+      "brand": "Sony",
+      "screenSize": "65\"",
+      "resolution": "4K"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-4",
+    "name": "Philips 43” Full HD TV",
+    "price": 299,
+    "category": "tvMonitors",
+    "image": "https://surl.lu/lwkdzv",
+    "filters": {
+      "brand": "Philips",
+      "screenSize": "43\"",
+      "resolution": "Full HD"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-5",
+    "name": "TCL 49” 2K Smart TV",
+    "price": 379,
+    "category": "tvMonitors",
+    "image": "https://surl.li/chkphv",
+    "filters": {
+      "brand": "TCL",
+      "screenSize": "49\"",
+      "resolution": "2K"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-6",
+    "name": "Xiaomi Mi TV P1 43” 4K",
+    "price": 329,
+    "category": "tvMonitors",
+    "image": "https://surli.cc/zzpbqj",
+    "filters": {
+      "brand": "Xiaomi",
+      "screenSize": "43\"",
+      "resolution": "4K"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-7",
+    "name": "Samsung 75” 8K QLED",
+    "price": 1799,
+    "category": "tvMonitors",
+    "image": "https://surli.cc/nwamuk",
+    "filters": {
+      "brand": "Samsung",
+      "screenSize": "75\"",
+      "resolution": "8K"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-8",
+    "name": "LG 49” Full HD Monitor",
+    "price": 289,
+    "category": "tvMonitors",
+    "image": "https://surl.li/hphioh",
+    "filters": {
+      "brand": "LG",
+      "screenSize": "49\"",
+      "resolution": "Full HD"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-9",
+    "name": "Sony 55” OLED 4K TV",
+    "price": 999,
+    "category": "tvMonitors",
+    "image": "https://surl.li/lchqqt",
+    "filters": {
+      "brand": "Sony",
+      "screenSize": "55\"",
+      "resolution": "4K"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-10",
+    "name": "Philips 32” HD Ready",
+    "price": 199,
+    "category": "tvMonitors",
+    "image": "https://surl.lu/lwkdzv",
+    "filters": {
+      "brand": "Philips",
+      "screenSize": "32\"",
+      "resolution": "HD"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-11",
+    "name": "TCL 55” 4K Smart TV",
+    "price": 459,
+    "category": "tvMonitors",
+    "image": "https://surl.li/chkphv",
+    "filters": {
+      "brand": "TCL",
+      "screenSize": "55\"",
+      "resolution": "4K"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-12",
+    "name": "Xiaomi 32” HD TV",
+    "price": 179,
+    "category": "tvMonitors",
+    "image": "https://surli.cc/zzpbqj",
+    "filters": {
+      "brand": "Xiaomi",
+      "screenSize": "32\"",
+      "resolution": "HD"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-13",
+    "name": "LG 75” 8K NanoCell TV",
+    "price": 2199,
+    "category": "tvMonitors",
+    "image": "https://surli.cc/nwamuk",
+    "filters": {
+      "brand": "LG",
+      "screenSize": "75\"",
+      "resolution": "8K"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-14",
+    "name": "Samsung 43” Full HD Smart TV",
+    "price": 329,
+    "category": "tvMonitors",
+    "image": "https://surl.li/hphioh",
+    "filters": {
+      "brand": "Samsung",
+      "screenSize": "43\"",
+      "resolution": "Full HD"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-15",
+    "name": "Sony 49” 2K HDR TV",
+    "price": 499,
+    "category": "tvMonitors",
+    "image": "https://surl.li/lchqqt",
+    "filters": {
+      "brand": "Sony",
+      "screenSize": "49\"",
+      "resolution": "2K"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-16",
+    "name": "TCL 65” 4K QLED",
+    "price": 679,
+    "category": "tvMonitors",
+    "image": "https://surl.lu/lwkdzv",
+    "filters": {
+      "brand": "TCL",
+      "screenSize": "65\"",
+      "resolution": "4K"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-17",
+    "name": "Xiaomi 49” Full HD",
+    "price": 379,
+    "category": "tvMonitors",
+    "image": "https://surl.li/chkphv",
+    "filters": {
+      "brand": "Xiaomi",
+      "screenSize": "49\"",
+      "resolution": "Full HD"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-18",
+    "name": "Philips 75” 4K UHD",
+    "price": 1149,
+    "category": "tvMonitors",
+    "image": "https://surli.cc/zzpbqj",
+    "filters": {
+      "brand": "Philips",
+      "screenSize": "75\"",
+      "resolution": "4K"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-19",
+    "name": "LG 65” OLED 8K",
+    "price": 2299,
+    "category": "tvMonitors",
+    "image": "https://surli.cc/nwamuk",
+    "filters": {
+      "brand": "LG",
+      "screenSize": "65\"",
+      "resolution": "8K"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-20",
+    "name": "Sony Bravia 32” HD",
+    "price": 239,
+    "category": "tvMonitors",
+    "image": "https://surl.li/hphioh",
+    "filters": {
+      "brand": "Sony",
+      "screenSize": "32\"",
+      "resolution": "HD"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-21",
+    "name": "Samsung 49” Full HD",
+    "price": 459,
+    "category": "tvMonitors",
+    "image": "https://surl.li/lchqqt",
+    "filters": {
+      "brand": "Samsung",
+      "screenSize": "49\"",
+      "resolution": "Full HD"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-22",
+    "name": "TCL 32” HD Smart TV",
+    "price": 209,
+    "category": "tvMonitors",
+    "image": "https://surl.lu/lwkdzv",
+    "filters": {
+      "brand": "TCL",
+      "screenSize": "32\"",
+      "resolution": "HD"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-23",
+    "name": "Xiaomi 65” 4K",
+    "price": 699,
+    "category": "tvMonitors",
+    "image": "https://surl.li/chkphv",
+    "filters": {
+      "brand": "Xiaomi",
+      "screenSize": "65\"",
+      "resolution": "4K"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-24",
+    "name": "Philips 49” 2K Monitor",
+    "price": 469,
+    "category": "tvMonitors",
+    "image": "https://surli.cc/zzpbqj",
+    "filters": {
+      "brand": "Philips",
+      "screenSize": "49\"",
+      "resolution": "2K"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-25",
+    "name": "LG 43” Full HD Monitor",
+    "price": 319,
+    "category": "tvMonitors",
+    "image": "https://surli.cc/nwamuk",
+    "filters": {
+      "brand": "LG",
+      "screenSize": "43\"",
+      "resolution": "Full HD"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-26",
+    "name": "Sony 75” 4K HDR",
+    "price": 1399,
+    "category": "tvMonitors",
+    "image": "https://surl.li/hphioh",
+    "filters": {
+      "brand": "Sony",
+      "screenSize": "75\"",
+      "resolution": "4K"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-27",
+    "name": "Samsung 65” 2K Smart TV",
+    "price": 629,
+    "category": "tvMonitors",
+    "image": "https://surl.li/lchqqt",
+    "filters": {
+      "brand": "Samsung",
+      "screenSize": "65\"",
+      "resolution": "2K"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-28",
+    "name": "TCL 43” HD",
+    "price": 279,
+    "category": "tvMonitors",
+    "image": "https://surl.lu/lwkdzv",
+    "filters": {
+      "brand": "TCL",
+      "screenSize": "43\"",
+      "resolution": "HD"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-29",
+    "name": "Xiaomi 55” 4K Smart TV",
+    "price": 519,
+    "category": "tvMonitors",
+    "image": "https://surl.li/chkphv",
+    "filters": {
+      "brand": "Xiaomi",
+      "screenSize": "55\"",
+      "resolution": "4K"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "tvmonitor-30",
+    "name": "Philips 32” HD Monitor",
+    "price": 199,
+    "category": "tvMonitors",
+    "image": "https://surli.cc/zzpbqj",
+    "filters": {
+      "brand": "Philips",
+      "screenSize": "32\"",
+      "resolution": "HD"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "laptops": {
+    "brand": ["Apple", "Acer", "Asus", "Samsung", "Dell", "LG", "Lenovo", "Huawei", "Toshiba", "MSI"],
+    "diagonal": [11.1, 12.1, 13.3, 14.1, 15, 15.4, 15.6, 16, 16.4, 17.3, 18.4],
+    "colors": ["White", "Black", "Grey", "Red", "Yellow", "Orange", "Green", "Blue", "Purple"]
+  },
+  "computers": {
+    "brand": ["Apple", "HP", "Asus", "Dell", "Lenovo", "Acer"],
+    "cpu": ["Intel i5", "Intel i7", "Intel i9", "Ryzen 5", "Ryzen 7", "Ryzen 9"],
+    "ram": ["8GB", "16GB", "32GB", "64GB"]
+  },
+  "smartphones": {
+    "brand": ["Apple", "Samsung", "Xiaomi", "OnePlus", "Realme", "Google"],
+    "camera": ["12MP", "48MP", "64MP", "108MP", "200MP"],
+    "battery": ["3000mAh", "4000mAh", "4500mAh", "5000mAh", "6000mAh"]
+  },
+  "gamingProducts": {
+    "brand": ["Sony", "Microsoft", "Nintendo", "Logitech", "Razer", "HyperX"],
+    "platform": ["PC", "PlayStation", "Xbox", "Nintendo Switch"],
+    "type": ["Gamepad", "Headset", "Keyboard", "Mouse", "Console"]
+  },
+  "tvMonitors": {
+    "brand": ["Samsung", "LG", "Sony", "Philips", "TCL", "Xiaomi"],
+    "screenSize": ["32\"", "43\"", "49\"", "55\"", "65\"", "75\""],
+    "resolution": ["HD", "Full HD", "2K", "4K", "8K"]
+  },
+  "audioProducts": {
+    "brand": ["Sony", "JBL", "Bose", "Marshall", "Sennheiser", "Beats"],
+    "type": ["Headphones", "Speakers", "Soundbars", "Earbuds"],
+    "connection": ["Bluetooth", "Wired", "Wi-Fi"]
+  },
+  "largeAppliances": {
+    "brand": ["Samsung", "LG", "Bosch", "Whirlpool", "Electrolux"],
+    "type": ["Washing Machine", "Fridge", "Dishwasher", "Dryer"],
+    "color": ["White", "Silver", "Black", "Grey"]
+  },
+  "smallAppliances": {
+    "brand": ["Philips", "Panasonic", "Tefal", "Xiaomi", "Braun"],
+    "type": ["Toaster", "Kettle", "Blender", "Coffee Maker", "Hair Dryer"],
+    "power": ["600W", "800W", "1000W", "1200W", "1500W"]
+  },
+  "tools": {
+    "brand": ["Makita", "Bosch", "DeWalt", "Black+Decker", "Einhell"],
+    "type": ["Drill", "Grinder", "Screwdriver", "Saw"],
+    "powerSource": ["Electric", "Battery", "Manual"]
+  },
+  "drones": {
+    "brand": ["DJI", "Parrot", "Ryze", "Hubsan"],
+    "cameraResolution": ["HD", "2.7K", "4K", "5.4K"],
+    "flightTime": ["10min", "20min", "30min", "40min"]
+  },
+  "householdChemicals": {
+    "brand": ["Fairy", "Persil", "Domestos", "Mr. Proper", "Tide"],
+    "type": ["Detergent", "Bleach", "Cleaner", "Softener"],
+    "volume": ["500ml", "1L", "1.5L", "2L"]
+  },
+  "dishes": {
+    "brand": ["Luminarc", "IKEA", "Villeroy & Boch", "Tefal", "Corelle"],
+    "material": ["Glass", "Ceramic", "Porcelain", "Steel"],
+    "type": ["Plates", "Bowls", "Mugs", "Cups", "Pans"]
+  }
+}
