@@ -7,7 +7,7 @@ interface Props {
   children: ReactNode;
 }
 
-export default function ScrollRestoration({ children }: Props) {
+function ScrollRestoration({ children }: Props) {
   const pathname = usePathname();
 
   useEffect(() => {
@@ -16,3 +16,5 @@ export default function ScrollRestoration({ children }: Props) {
 
   return <>{children}</>;
 }
+
+export { ScrollRestoration };

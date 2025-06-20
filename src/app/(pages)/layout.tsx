@@ -1,14 +1,15 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import localFont from 'next/font/local';
+import type { ReactNode } from 'react';
 
 import { cn } from '@/lib/utils';
+import { ScrollRestoration } from '@/providers';
 
 import Banner from '../components/banner/banner';
 import Footer from '../components/footer/footer';
 import Header from '../components/header/header';
 import Sidebar from '../components/sidebar/sidebar';
-import ScrollRestoration from '../providers/scroll-restoration';
 import './../globals.css';
 
 const urwGeometric = localFont({
@@ -71,21 +72,25 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
   return (
     <html lang="en">
       <body className={cn(geistSans.variable, geistMono.variable, urwGeometric.variable, 'antialiased')}>
         <ScrollRestoration>
           <Header />
-          <div className="flex max-lg:flex-col">
-            <div className="lg:max-w-100 lg:w-full lg:border-r-1 lg:max-h-220 lg:border-medium-gray lg:ml-21.5 lg:pl-5 lg:pt-10 max-lg:m-6 overflow-x-auto scrollbar-hide">
+          <div className="flex flex-col lg:flex-row">
+            <div className="lg:min-w-70 lg:max-w-90 lg:w-full lg:border-r-1 lg:border-medium-gray lg:ml-21.5 lg:pl-5 lg:pt-10 max-lg:mx-6 max-lg:mt-6 max-lg:mb-0 overflow-x-auto scrollbar-hide h-fit">
               <Sidebar />
             </div>
-            <div className="py-10.5 pl-10.5 pr-21.5 max-lg:pt-0 max-lg:p-6">
-              <Banner />
-              {children}
-            </div>
+            <main className="flex-1 min-w-0 py-10.5 pl-10.5 pr-21.5 max-lg:px-6 max-lg:pt-0">
+              <div className="max-w-360 mx-auto ">
+                <div className="max-lg:pt-6 pb-18.5 max-lg:pb-20">
+                  <Banner />
+                </div>
+                {children}
+              </div>
+            </main>
           </div>
           <Footer />
         </ScrollRestoration>

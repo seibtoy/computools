@@ -8,29 +8,32 @@ import { cn } from '@/lib/utils';
 
 interface Props {
   tagColor: string;
-  tabLabel: string;
+  tagLabel: string;
   imageSrc: string;
   price: number;
   title: string;
   className?: string;
 }
 
-export default function Card({ tabLabel, tagColor, imageSrc, price, title, className }: Props) {
+export default function Card({ tagLabel, tagColor, imageSrc, price, title, className }: Props) {
   const Heart = icons.heart;
   const [isLiked, setIsLiked] = useState(false);
 
   return (
     <div
-      className={cn(className, 'flex flex-col gap-7 w-65 px-7.5 pt-7.5 pb-6 border-b-1 border-medium-gray border-r-1')}
+      className={cn(
+        className,
+        'flex flex-col gap-7 w-full px-7.5 pt-7.5 pb-6 border-b-1 border-medium-gray border-r-1'
+      )}
     >
       <div className="flex items-center justify-between">
         <div className={cn(tagColor, 'uppercase w-12.5 h-6 flex items-center justify-center text-white text-xs')}>
-          {tabLabel}
+          {tagLabel}
         </div>
         <Heart fill={isLiked ? 'var(--color-green-flash)' : 'white'} onClick={() => setIsLiked((prev) => !prev)} />
       </div>
-      <div className="flex items-center justify-center w-[187px] h-[227px] relative">
-        <Image src={imageSrc} alt="item" fill className="object-contain select-none" />
+      <div className="relative w-full aspect-[3/4] max-h-70">
+        <Image src={imageSrc} alt="item" fill loading="lazy" className="object-contain select-none" />
       </div>
       <div className="flex flex-col gap-2">
         <span className="uppercase text-lg truncate">{title}</span>
