@@ -8,10 +8,10 @@ import TabletBanner from '../../../../public/assets/banners/tablet-banner.png';
 export default function Banner() {
   return (
     <section className="flex flex-col gap-8">
-      <div>
-        <Image src={MainBanner} alt="main-banner" className="cursor-pointer" />
+      <div className="flex">
+        <Image src={MainBanner} alt="main-banner" className="cursor-pointer flex-1" />
       </div>
-      <div className="flex justify-between gap-8">
+      <div className="flex justify-between gap-8 flex-1">
         <div>
           <Image src={LaptopBanner} alt="laptop-banner" className="cursor-pointer" />
         </div>
