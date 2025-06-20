@@ -1,0 +1,512 @@
+[
+  {
+    "id": "household-001",
+    "name": "Fairy Liquid Detergent",
+    "price": 5.99,
+    "category": "householdChemicals",
+    "image": "https://surl.gd/lutrbk",
+    "filters": {
+      "brand": "Fairy",
+      "type": "Detergent",
+      "volume": "500ml"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-002",
+    "name": "Persil Gel Detergent",
+    "price": 7.49,
+    "category": "householdChemicals",
+    "image": "https://surli.cc/bijeyw",
+    "filters": {
+      "brand": "Persil",
+      "type": "Detergent",
+      "volume": "1L"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-003",
+    "name": "Domestos Thick Bleach",
+    "price": 4.5,
+    "category": "householdChemicals",
+    "image": "https://surli.cc/ahwtlv",
+    "filters": {
+      "brand": "Domestos",
+      "type": "Bleach",
+      "volume": "1.5L"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "household-004",
+    "name": "Mr. Proper Floor Cleaner",
+    "price": 3.99,
+    "category": "householdChemicals",
+    "image": "https://surl.li/eupnza",
+    "filters": {
+      "brand": "Mr. Proper",
+      "type": "Cleaner",
+      "volume": "2L"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "household-005",
+    "name": "Tide Fabric Softener",
+    "price": 6.99,
+    "category": "householdChemicals",
+    "image": "https://surl.li/nhewue",
+    "filters": {
+      "brand": "Tide",
+      "type": "Softener",
+      "volume": "500ml"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-006",
+    "name": "Fairy Ultra Detergent",
+    "price": 8.25,
+    "category": "householdChemicals",
+    "image": "https://surli.cc/rxyglo",
+    "filters": {
+      "brand": "Fairy",
+      "type": "Detergent",
+      "volume": "1L"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-007",
+    "name": "Persil Powder Detergent",
+    "price": 7.8,
+    "category": "householdChemicals",
+    "image": "https://surl.gd/lutrbk",
+    "filters": {
+      "brand": "Persil",
+      "type": "Detergent",
+      "volume": "1.5L"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "household-008",
+    "name": "Domestos Lemon Bleach",
+    "price": 4.75,
+    "category": "householdChemicals",
+    "image": "https://surli.cc/bijeyw",
+    "filters": {
+      "brand": "Domestos",
+      "type": "Bleach",
+      "volume": "2L"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-009",
+    "name": "Mr. Proper Citrus Cleaner",
+    "price": 4.2,
+    "category": "householdChemicals",
+    "image": "https://surli.cc/ahwtlv",
+    "filters": {
+      "brand": "Mr. Proper",
+      "type": "Cleaner",
+      "volume": "500ml"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-010",
+    "name": "Tide Spring Fresh Softener",
+    "price": 7.1,
+    "category": "householdChemicals",
+    "image": "https://surl.li/eupnza",
+    "filters": {
+      "brand": "Tide",
+      "type": "Softener",
+      "volume": "1L"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "household-011",
+    "name": "Fairy Green Detergent",
+    "price": 6.5,
+    "category": "householdChemicals",
+    "image": "https://surl.li/nhewue",
+    "filters": {
+      "brand": "Fairy",
+      "type": "Detergent",
+      "volume": "1.5L"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-012",
+    "name": "Persil Sensitive Detergent",
+    "price": 8.0,
+    "category": "householdChemicals",
+    "image": "https://surli.cc/rxyglo",
+    "filters": {
+      "brand": "Persil",
+      "type": "Detergent",
+      "volume": "2L"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-013",
+    "name": "Domestos Thick Bleach Original",
+    "price": 5.0,
+    "category": "householdChemicals",
+    "image": "https://surl.gd/lutrbk",
+    "filters": {
+      "brand": "Domestos",
+      "type": "Bleach",
+      "volume": "500ml"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "household-014",
+    "name": "Mr. Proper Pine Cleaner",
+    "price": 4.4,
+    "category": "householdChemicals",
+    "image": "https://surli.cc/bijeyw",
+    "filters": {
+      "brand": "Mr. Proper",
+      "type": "Cleaner",
+      "volume": "1L"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-015",
+    "name": "Tide Floral Softener",
+    "price": 7.75,
+    "category": "householdChemicals",
+    "image": "https://surli.cc/ahwtlv",
+    "filters": {
+      "brand": "Tide",
+      "type": "Softener",
+      "volume": "1.5L"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "household-016",
+    "name": "Fairy Lemon Detergent",
+    "price": 6.1,
+    "category": "householdChemicals",
+    "image": "https://surl.li/eupnza",
+    "filters": {
+      "brand": "Fairy",
+      "type": "Detergent",
+      "volume": "2L"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-017",
+    "name": "Persil Power Gel",
+    "price": 7.95,
+    "category": "householdChemicals",
+    "image": "https://surl.li/nhewue",
+    "filters": {
+      "brand": "Persil",
+      "type": "Detergent",
+      "volume": "500ml"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "household-018",
+    "name": "Domestos Pine Bleach",
+    "price": 4.85,
+    "category": "householdChemicals",
+    "image": "https://surli.cc/rxyglo",
+    "filters": {
+      "brand": "Domestos",
+      "type": "Bleach",
+      "volume": "1L"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "household-019",
+    "name": "Mr. Proper Fresh Cleaner",
+    "price": 3.75,
+    "category": "householdChemicals",
+    "image": "https://surl.gd/lutrbk",
+    "filters": {
+      "brand": "Mr. Proper",
+      "type": "Cleaner",
+      "volume": "1.5L"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-020",
+    "name": "Tide Ocean Breeze Softener",
+    "price": 7.2,
+    "category": "householdChemicals",
+    "image": "https://surli.cc/bijeyw",
+    "filters": {
+      "brand": "Tide",
+      "type": "Softener",
+      "volume": "2L"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "household-021",
+    "name": "Fairy Citrus Detergent",
+    "price": 5.8,
+    "category": "householdChemicals",
+    "image": "https://surli.cc/ahwtlv",
+    "filters": {
+      "brand": "Fairy",
+      "type": "Detergent",
+      "volume": "500ml"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-022",
+    "name": "Persil Color Gel",
+    "price": 8.2,
+    "category": "householdChemicals",
+    "image": "https://surl.li/eupnza",
+    "filters": {
+      "brand": "Persil",
+      "type": "Detergent",
+      "volume": "1L"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-023",
+    "name": "Domestos Original Bleach",
+    "price": 5.15,
+    "category": "householdChemicals",
+    "image": "https://surl.li/nhewue",
+    "filters": {
+      "brand": "Domestos",
+      "type": "Bleach",
+      "volume": "1.5L"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "household-024",
+    "name": "Mr. Proper Lemon Cleaner",
+    "price": 4.0,
+    "category": "householdChemicals",
+    "image": "https://surli.cc/rxyglo",
+    "filters": {
+      "brand": "Mr. Proper",
+      "type": "Cleaner",
+      "volume": "2L"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-025",
+    "name": "Tide Fresh Linen Softener",
+    "price": 7.65,
+    "category": "householdChemicals",
+    "image": "https://surl.gd/lutrbk",
+    "filters": {
+      "brand": "Tide",
+      "type": "Softener",
+      "volume": "500ml"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-026",
+    "name": "Fairy Fresh Detergent",
+    "price": 6.4,
+    "category": "householdChemicals",
+    "image": "https://surli.cc/bijeyw",
+    "filters": {
+      "brand": "Fairy",
+      "type": "Detergent",
+      "volume": "1L"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "household-027",
+    "name": "Persil Sensitive Powder",
+    "price": 8.5,
+    "category": "householdChemicals",
+    "image": "https://surli.cc/ahwtlv",
+    "filters": {
+      "brand": "Persil",
+      "type": "Detergent",
+      "volume": "1.5L"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-028",
+    "name": "Domestos Thick Bleach Citrus",
+    "price": 5.3,
+    "category": "householdChemicals",
+    "image": "https://surl.li/eupnza",
+    "filters": {
+      "brand": "Domestos",
+      "type": "Bleach",
+      "volume": "2L"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "household-029",
+    "name": "Mr. Proper Ocean Cleaner",
+    "price": 3.85,
+    "category": "householdChemicals",
+    "image": "https://surl.li/nhewue",
+    "filters": {
+      "brand": "Mr. Proper",
+      "type": "Cleaner",
+      "volume": "500ml"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "household-030",
+    "name": "Tide Lavender Softener",
+    "price": 7.85,
+    "category": "householdChemicals",
+    "image": "https://surli.cc/rxyglo",
+    "filters": {
+      "brand": "Tide",
+      "type": "Softener",
+      "volume": "1L"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  }
+]

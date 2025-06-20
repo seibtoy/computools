@@ -1,0 +1,512 @@
+[
+  {
+    "id": "drone-001",
+    "name": "DJI Phantom 4",
+    "price": 1200,
+    "category": "drones",
+    "image": "https://surl.lu/egcybs",
+    "filters": {
+      "brand": "DJI",
+      "cameraResolution": "HD",
+      "flightTime": "10min"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-002",
+    "name": "Parrot Anafi",
+    "price": 800,
+    "category": "drones",
+    "image": "https://surl.lu/rxotzi",
+    "filters": {
+      "brand": "Parrot",
+      "cameraResolution": "2.7K",
+      "flightTime": "20min"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-003",
+    "name": "Ryze Tello",
+    "price": 150,
+    "category": "drones",
+    "image": "https://surl.li/lcvcqg",
+    "filters": {
+      "brand": "Ryze",
+      "cameraResolution": "4K",
+      "flightTime": "30min"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-004",
+    "name": "Hubsan Zino",
+    "price": 500,
+    "category": "drones",
+    "image": "https://surl.li/ybeabl",
+    "filters": {
+      "brand": "Hubsan",
+      "cameraResolution": "5.4K",
+      "flightTime": "40min"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-005",
+    "name": "DJI Mavic Air 2",
+    "price": 1000,
+    "category": "drones",
+    "image": "https://surli.cc/cbqmvd",
+    "filters": {
+      "brand": "DJI",
+      "cameraResolution": "HD",
+      "flightTime": "20min"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-006",
+    "name": "Parrot Bebop 2",
+    "price": 750,
+    "category": "drones",
+    "image": "https://surl.lu/adudlp",
+    "filters": {
+      "brand": "Parrot",
+      "cameraResolution": "2.7K",
+      "flightTime": "30min"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-007",
+    "name": "Ryze Tello EDU",
+    "price": 200,
+    "category": "drones",
+    "image": "https://surl.lu/egcybs",
+    "filters": {
+      "brand": "Ryze",
+      "cameraResolution": "4K",
+      "flightTime": "40min"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-008",
+    "name": "Hubsan H501S",
+    "price": 400,
+    "category": "drones",
+    "image": "https://surl.lu/rxotzi",
+    "filters": {
+      "brand": "Hubsan",
+      "cameraResolution": "5.4K",
+      "flightTime": "10min"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-009",
+    "name": "DJI Inspire 2",
+    "price": 3000,
+    "category": "drones",
+    "image": "https://surl.li/lcvcqg",
+    "filters": {
+      "brand": "DJI",
+      "cameraResolution": "HD",
+      "flightTime": "20min"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-010",
+    "name": "Parrot Disco",
+    "price": 900,
+    "category": "drones",
+    "image": "https://surl.li/ybeabl",
+    "filters": {
+      "brand": "Parrot",
+      "cameraResolution": "2.7K",
+      "flightTime": "30min"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-011",
+    "name": "Ryze Tello Boost",
+    "price": 170,
+    "category": "drones",
+    "image": "https://surli.cc/cbqmvd",
+    "filters": {
+      "brand": "Ryze",
+      "cameraResolution": "4K",
+      "flightTime": "40min"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-012",
+    "name": "Hubsan H107D",
+    "price": 300,
+    "category": "drones",
+    "image": "https://surl.lu/adudlp",
+    "filters": {
+      "brand": "Hubsan",
+      "cameraResolution": "5.4K",
+      "flightTime": "10min"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-013",
+    "name": "DJI Mini 3 Pro",
+    "price": 1300,
+    "category": "drones",
+    "image": "https://surl.lu/egcybs",
+    "filters": {
+      "brand": "DJI",
+      "cameraResolution": "HD",
+      "flightTime": "30min"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-014",
+    "name": "Parrot Anafi USA",
+    "price": 1400,
+    "category": "drones",
+    "image": "https://surl.lu/rxotzi",
+    "filters": {
+      "brand": "Parrot",
+      "cameraResolution": "2.7K",
+      "flightTime": "40min"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-015",
+    "name": "Ryze Tello Iron Man",
+    "price": 220,
+    "category": "drones",
+    "image": "https://surl.li/lcvcqg",
+    "filters": {
+      "brand": "Ryze",
+      "cameraResolution": "4K",
+      "flightTime": "10min"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-016",
+    "name": "DJI Air 2S",
+    "price": 1100,
+    "category": "drones",
+    "image": "https://surl.lu/egcybs",
+    "filters": {
+      "brand": "DJI",
+      "cameraResolution": "5.4K",
+      "flightTime": "20min"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-017",
+    "name": "Parrot Mambo",
+    "price": 350,
+    "category": "drones",
+    "image": "https://surl.lu/rxotzi",
+    "filters": {
+      "brand": "Parrot",
+      "cameraResolution": "HD",
+      "flightTime": "10min"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-018",
+    "name": "Ryze Tello Boost Combo",
+    "price": 230,
+    "category": "drones",
+    "image": "https://surl.li/lcvcqg",
+    "filters": {
+      "brand": "Ryze",
+      "cameraResolution": "2.7K",
+      "flightTime": "30min"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-019",
+    "name": "Hubsan H216A",
+    "price": 450,
+    "category": "drones",
+    "image": "https://surl.li/ybeabl",
+    "filters": {
+      "brand": "Hubsan",
+      "cameraResolution": "4K",
+      "flightTime": "40min"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-020",
+    "name": "DJI FPV Combo",
+    "price": 1300,
+    "category": "drones",
+    "image": "https://surli.cc/cbqmvd",
+    "filters": {
+      "brand": "DJI",
+      "cameraResolution": "5.4K",
+      "flightTime": "30min"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-021",
+    "name": "Parrot Bebop 3",
+    "price": 900,
+    "category": "drones",
+    "image": "https://surl.lu/adudlp",
+    "filters": {
+      "brand": "Parrot",
+      "cameraResolution": "HD",
+      "flightTime": "40min"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-022",
+    "name": "Ryze Tello Iron Man Edition",
+    "price": 210,
+    "category": "drones",
+    "image": "https://surl.lu/egcybs",
+    "filters": {
+      "brand": "Ryze",
+      "cameraResolution": "2.7K",
+      "flightTime": "10min"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-023",
+    "name": "Hubsan Zino 2",
+    "price": 600,
+    "category": "drones",
+    "image": "https://surl.lu/rxotzi",
+    "filters": {
+      "brand": "Hubsan",
+      "cameraResolution": "4K",
+      "flightTime": "20min"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-024",
+    "name": "DJI Matrice 300",
+    "price": 5000,
+    "category": "drones",
+    "image": "https://surl.li/lcvcqg",
+    "filters": {
+      "brand": "DJI",
+      "cameraResolution": "5.4K",
+      "flightTime": "40min"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-025",
+    "name": "Parrot Bluegrass",
+    "price": 1600,
+    "category": "drones",
+    "image": "https://surl.li/ybeabl",
+    "filters": {
+      "brand": "Parrot",
+      "cameraResolution": "HD",
+      "flightTime": "10min"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-026",
+    "name": "Ryze Tello EDU Boost",
+    "price": 250,
+    "category": "drones",
+    "image": "https://surli.cc/cbqmvd",
+    "filters": {
+      "brand": "Ryze",
+      "cameraResolution": "2.7K",
+      "flightTime": "20min"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-027",
+    "name": "Hubsan H501S X4",
+    "price": 480,
+    "category": "drones",
+    "image": "https://surl.lu/adudlp",
+    "filters": {
+      "brand": "Hubsan",
+      "cameraResolution": "4K",
+      "flightTime": "30min"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-028",
+    "name": "DJI Mini 2",
+    "price": 999,
+    "category": "drones",
+    "image": "https://surl.lu/egcybs",
+    "filters": {
+      "brand": "DJI",
+      "cameraResolution": "5.4K",
+      "flightTime": "10min"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-029",
+    "name": "Parrot Disco-Pro AG",
+    "price": 1800,
+    "category": "drones",
+    "image": "https://surl.lu/rxotzi",
+    "filters": {
+      "brand": "Parrot",
+      "cameraResolution": "HD",
+      "flightTime": "20min"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "drone-030",
+    "name": "Ryze Tello Drony",
+    "price": 175,
+    "category": "drones",
+    "image": "https://surl.li/lcvcqg",
+    "filters": {
+      "brand": "Ryze",
+      "cameraResolution": "2.7K",
+      "flightTime": "30min"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  }
+]

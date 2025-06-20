@@ -1,21 +1,24 @@
 'use client';
 
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 import {
-  Button,
+  Checkbox,
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
-  Input,
   RadioGroup,
   RadioGroupItem,
   icons,
 } from '@/app/components/ui-kit';
 import { cn } from '@/lib/utils';
 
-import AuthImage from '../../../../public/assets/auth-img.jpg';
+import SignInImg from '../../../../public/assets/sign-in.jpg';
+import SignUpImg from '../../../../public/assets/sign-up.jpg';
+import SignInForm from './signIn-form';
+import SignUpForm from './signUp-form';
 
 interface Props {
   open: boolean;
@@ -23,6 +26,14 @@ interface Props {
 }
 
 export function AuthDialog({ open, onOpenChange }: Props) {
+  useEffect(() => {
+    if (open) {
+      setAuthType('sign in');
+    }
+  }, [open]);
+
+  const [authType, setAuthType] = useState<'sign in' | 'sign up'>('sign in');
+
   const InfoIcon = icons.info;
   const CrissCross = icons.crissCross;
   const socials = [
@@ -33,20 +44,27 @@ export function AuthDialog({ open, onOpenChange }: Props) {
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="w-256 h-170 rounded-none p-0 border-0" showCloseButton={false}>
-        <div className="flex">
-          <div className="flex flex-col gap-10.5 w-1/2 px-21.5 py-15">
+      <DialogContent
+        className="w-256 h-170 rounded-none p-0 border-0 max-lg:w-[calc(100%-3rem)]"
+        showCloseButton={false}
+      >
+        <div className="flex max-lg:block">
+          <div className="flex flex-col gap-10.5 lg:w-1/2 lg:px-21.5 lg:py-15 max-lg:px-6 max-lg:pt-15 max-lg:pb-6">
             <DialogHeader>
-              <RadioGroup defaultValue="option1" className="flex justify-center gap-16.5">
+              <RadioGroup
+                defaultValue="sign in"
+                onValueChange={(value) => setAuthType(value as 'sign in' | 'sign up')}
+                className="flex justify-center gap-16.5"
+              >
                 <div className="flex items-center gap-3">
                   <RadioGroupItem
-                    value="option1"
-                    id="option1"
+                    value="sign in"
+                    id="sign in"
                     className="peer w-4 h-4 rounded-[4px] border-1 border-black data-[state=checked]:bg-green-flash data-[state=unchecked]:bg-medium-gray 
                     data-[state=unchecked]:border-medium-gray"
                   />
                   <label
-                    htmlFor="option1"
+                    htmlFor="sign in"
                     className="font-semibold uppercase peer-data-[state=unchecked]:text-medium-gray"
                   >
                     Sign in
@@ -54,13 +72,13 @@ export function AuthDialog({ open, onOpenChange }: Props) {
                 </div>
                 <div className="flex items-center gap-3">
                   <RadioGroupItem
-                    value="option2"
-                    id="option2"
+                    value="sign up"
+                    id="sign up"
                     className="peer w-4 h-4 rounded-[4px] border-1 border-black data-[state=checked]:bg-green-flash data-[state=unchecked]:bg-medium-gray 
                     data-[state=unchecked]:border-medium-gray"
                   />
                   <label
-                    htmlFor="option2"
+                    htmlFor="sign up"
                     className="font-semibold uppercase peer-data-[state=unchecked]:text-medium-gray"
                   >
                     Sign up
@@ -69,38 +87,32 @@ export function AuthDialog({ open, onOpenChange }: Props) {
               </RadioGroup>
             </DialogHeader>
             <div>
-              <DialogTitle className="uppercase text-2xl! text-center">Welcome back!</DialogTitle>
-              <form>
-                <div className="flex flex-col gap-6 mt-10.5">
-                  <Input
-                    placeholder="Enter"
-                    variant="auth"
-                    label="* enter email or phone number"
-                    labelClassname="uppercase"
-                    className="placeholder:text-medium-gray"
-                    type="email"
-                  />
-                  <Input
-                    placeholder="Enter"
-                    variant="auth"
-                    label="* password"
-                    labelClassname="uppercase"
-                    className="placeholder:text-medium-gray placeholder:tracking-normal letter-spacing-20"
-                    type="password"
-                    rightIcon="eye"
-                    rightIconColor="var(--color-gray)"
-                  />
+              {authType === 'sign in' ? (
+                <>
+                  <DialogTitle className="uppercase text-2xl! text-center">Welcome back!</DialogTitle>
+                  <SignInForm />
+                </>
+              ) : (
+                <>
+                  <DialogTitle className="uppercase text-2xl! text-center">Create an account</DialogTitle>
+                  <SignUpForm />
+                </>
+              )}
+              {authType === 'sign in' ? (
+                <div className="h-6 uppercase flex gap-2.5 items-center mt-8 cursor-pointer">
+                  <InfoIcon className="mt-0.5" color="var(--color-gray)" width={20} height={20} />
+                  Forgot password
                 </div>
-                <div className="mt-13">
-                  <Button className="uppercase w-full font-semibold" variant="grayBtn" type="submit">
-                    Sign in
-                  </Button>
+              ) : (
+                <div className="h-6 uppercase flex gap-2.5 items-center mt-8 mb-4 text-sm">
+                  <Checkbox
+                    className="rounded-none border-black data-[state=checked]:bg-green-flash data-[state=checked]:border-0"
+                    indicatorClassname="text-black"
+                  />
+                  I accept the terms of the license agreement
                 </div>
-              </form>
-              <div className="uppercase flex gap-2.5 items-center mt-8 cursor-pointer">
-                <InfoIcon className="mt-0.5" color="var(--color-gray)" width={20} height={20} />
-                Forgot password
-              </div>
+              )}
+
               <div className="flex items-center mt-8">
                 <hr className="flex-1" />
                 <span className="text-medium-gray font-light px-3">OR</span>
@@ -112,7 +124,10 @@ export function AuthDialog({ open, onOpenChange }: Props) {
                   return (
                     <div
                       key={index}
-                      className={cn(social.color, 'h-10 w-22 flex items-center justify-center cursor-pointer')}
+                      className={cn(
+                        social.color,
+                        'h-10 w-22 max-lg:w-19 flex items-center justify-center cursor-pointer'
+                      )}
                     >
                       <IconComponent color="white" />
                     </div>
@@ -121,9 +136,9 @@ export function AuthDialog({ open, onOpenChange }: Props) {
               </div>
             </div>
           </div>
-          <div className="flex w-1/2">
+          <div className="flex w-1/2 max-lg:hidden">
             <Image
-              src={AuthImage}
+              src={authType === 'sign in' ? SignInImg : SignUpImg}
               alt="image"
               className="h-full object-cover"
               style={{ objectPosition: '45% center' }}
@@ -131,7 +146,7 @@ export function AuthDialog({ open, onOpenChange }: Props) {
           </div>
         </div>
         <button
-          className="absolute right-10 top-10 w-8 h-8 flex items-center justify-center bg-white cursor-pointer"
+          className="absolute right-10 top-10 w-8 h-8 max-lg:top-2 max-lg:right-2 flex items-center justify-center bg-white cursor-pointer"
           onClick={() => onOpenChange(false)}
         >
           <CrissCross />

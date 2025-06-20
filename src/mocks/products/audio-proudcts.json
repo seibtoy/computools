@@ -1,0 +1,512 @@
+[
+  {
+    "id": "audio-1",
+    "name": "Sony WH-1000XM5",
+    "price": 349,
+    "category": "audioProducts",
+    "image": "https://surl.li/vvpqjo",
+    "filters": {
+      "brand": "Sony",
+      "type": "Headphones",
+      "connection": "Bluetooth"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-2",
+    "name": "JBL Flip 6",
+    "price": 129,
+    "category": "audioProducts",
+    "image": "https://surl.li/hqjdzm",
+    "filters": {
+      "brand": "JBL",
+      "type": "Speakers",
+      "connection": "Bluetooth"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-3",
+    "name": "Bose Soundbar 700",
+    "price": 699,
+    "category": "audioProducts",
+    "image": "https://surli.cc/tbgbxv",
+    "filters": {
+      "brand": "Bose",
+      "type": "Soundbars",
+      "connection": "Wi-Fi"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-4",
+    "name": "Marshall Emberton",
+    "price": 149,
+    "category": "audioProducts",
+    "image": "https://surl.lu/jxbddh",
+    "filters": {
+      "brand": "Marshall",
+      "type": "Speakers",
+      "connection": "Bluetooth"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-5",
+    "name": "Sennheiser HD 599",
+    "price": 199,
+    "category": "audioProducts",
+    "image": "https://surl.gd/auqzyj",
+    "filters": {
+      "brand": "Sennheiser",
+      "type": "Headphones",
+      "connection": "Wired"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-6",
+    "name": "Beats Fit Pro",
+    "price": 199,
+    "category": "audioProducts",
+    "image": "https://surli.cc/liuprb",
+    "filters": {
+      "brand": "Beats",
+      "type": "Earbuds",
+      "connection": "Bluetooth"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "audio-7",
+    "name": "Sony SRS-XB23",
+    "price": 99,
+    "category": "audioProducts",
+    "image": "https://surl.li/vvpqjo",
+    "filters": {
+      "brand": "Sony",
+      "type": "Speakers",
+      "connection": "Bluetooth"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-8",
+    "name": "JBL Tune 760NC",
+    "price": 129,
+    "category": "audioProducts",
+    "image": "https://surl.li/hqjdzm",
+    "filters": {
+      "brand": "JBL",
+      "type": "Headphones",
+      "connection": "Bluetooth"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-9",
+    "name": "Bose QuietComfort Earbuds II",
+    "price": 299,
+    "category": "audioProducts",
+    "image": "https://surli.cc/tbgbxv",
+    "filters": {
+      "brand": "Bose",
+      "type": "Earbuds",
+      "connection": "Bluetooth"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "audio-10",
+    "name": "Marshall Monitor II",
+    "price": 249,
+    "category": "audioProducts",
+    "image": "https://surl.lu/jxbddh",
+    "filters": {
+      "brand": "Marshall",
+      "type": "Headphones",
+      "connection": "Bluetooth"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-11",
+    "name": "Sennheiser Momentum 4",
+    "price": 379,
+    "category": "audioProducts",
+    "image": "https://surl.gd/auqzyj",
+    "filters": {
+      "brand": "Sennheiser",
+      "type": "Headphones",
+      "connection": "Bluetooth"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-12",
+    "name": "Beats Studio Buds",
+    "price": 149,
+    "category": "audioProducts",
+    "image": "https://surli.cc/liuprb",
+    "filters": {
+      "brand": "Beats",
+      "type": "Earbuds",
+      "connection": "Bluetooth"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "audio-13",
+    "name": "Sony HT-G700 Soundbar",
+    "price": 399,
+    "category": "audioProducts",
+    "image": "https://surl.li/vvpqjo",
+    "filters": {
+      "brand": "Sony",
+      "type": "Soundbars",
+      "connection": "Wi-Fi"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-14",
+    "name": "JBL PartyBox Encore",
+    "price": 549,
+    "category": "audioProducts",
+    "image": "https://surl.li/hqjdzm",
+    "filters": {
+      "brand": "JBL",
+      "type": "Speakers",
+      "connection": "Bluetooth"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-15",
+    "name": "Bose TV Speaker",
+    "price": 279,
+    "category": "audioProducts",
+    "image": "https://surli.cc/tbgbxv",
+    "filters": {
+      "brand": "Bose",
+      "type": "Soundbars",
+      "connection": "Wired"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-16",
+    "name": "Marshall Willen",
+    "price": 119,
+    "category": "audioProducts",
+    "image": "https://surl.lu/jxbddh",
+    "filters": {
+      "brand": "Marshall",
+      "type": "Speakers",
+      "connection": "Bluetooth"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-17",
+    "name": "Sennheiser CX True Wireless",
+    "price": 99,
+    "category": "audioProducts",
+    "image": "https://surl.gd/auqzyj",
+    "filters": {
+      "brand": "Sennheiser",
+      "type": "Earbuds",
+      "connection": "Bluetooth"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "audio-18",
+    "name": "Beats Solo3 Wireless",
+    "price": 199,
+    "category": "audioProducts",
+    "image": "https://surli.cc/liuprb",
+    "filters": {
+      "brand": "Beats",
+      "type": "Headphones",
+      "connection": "Bluetooth"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-19",
+    "name": "Sony LinkBuds S",
+    "price": 179,
+    "category": "audioProducts",
+    "image": "https://surl.li/vvpqjo",
+    "filters": {
+      "brand": "Sony",
+      "type": "Earbuds",
+      "connection": "Bluetooth"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "audio-20",
+    "name": "JBL Bar 5.1",
+    "price": 399,
+    "category": "audioProducts",
+    "image": "https://surl.li/hqjdzm",
+    "filters": {
+      "brand": "JBL",
+      "type": "Soundbars",
+      "connection": "Wi-Fi"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-21",
+    "name": "Bose Portable Smart Speaker",
+    "price": 349,
+    "category": "audioProducts",
+    "image": "https://surli.cc/tbgbxv",
+    "filters": {
+      "brand": "Bose",
+      "type": "Speakers",
+      "connection": "Wi-Fi"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-22",
+    "name": "Marshall Tufton",
+    "price": 449,
+    "category": "audioProducts",
+    "image": "https://surl.lu/jxbddh",
+    "filters": {
+      "brand": "Marshall",
+      "type": "Speakers",
+      "connection": "Bluetooth"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-23",
+    "name": "Sennheiser IE 600",
+    "price": 699,
+    "category": "audioProducts",
+    "image": "https://surl.gd/auqzyj",
+    "filters": {
+      "brand": "Sennheiser",
+      "type": "Earbuds",
+      "connection": "Wired"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": true
+  },
+  {
+    "id": "audio-24",
+    "name": "Beats Powerbeats Pro",
+    "price": 249,
+    "category": "audioProducts",
+    "image": "https://surli.cc/liuprb",
+    "filters": {
+      "brand": "Beats",
+      "type": "Earbuds",
+      "connection": "Bluetooth"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "audio-25",
+    "name": "Sony HT-A7000",
+    "price": 1199,
+    "category": "audioProducts",
+    "image": "https://surl.li/vvpqjo",
+    "filters": {
+      "brand": "Sony",
+      "type": "Soundbars",
+      "connection": "Wi-Fi"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-26",
+    "name": "JBL Wave Buds",
+    "price": 59,
+    "category": "audioProducts",
+    "image": "https://surl.li/hqjdzm",
+    "filters": {
+      "brand": "JBL",
+      "type": "Earbuds",
+      "connection": "Bluetooth"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": true
+  },
+  {
+    "id": "audio-27",
+    "name": "Bose Sport Earbuds",
+    "price": 179,
+    "category": "audioProducts",
+    "image": "https://surli.cc/tbgbxv",
+    "filters": {
+      "brand": "Bose",
+      "type": "Earbuds",
+      "connection": "Bluetooth"
+    },
+    "isHot": false,
+    "isNew": false,
+    "isTopSeller": true,
+    "isPopular": false,
+    "isAccessory": true
+  },
+  {
+    "id": "audio-28",
+    "name": "Marshall Mode EQ",
+    "price": 69,
+    "category": "audioProducts",
+    "image": "https://surl.lu/jxbddh",
+    "filters": {
+      "brand": "Marshall",
+      "type": "Earbuds",
+      "connection": "Wired"
+    },
+    "isHot": false,
+    "isNew": true,
+    "isTopSeller": false,
+    "isPopular": false,
+    "isAccessory": true
+  },
+  {
+    "id": "audio-29",
+    "name": "Sennheiser HD 450BT",
+    "price": 129,
+    "category": "audioProducts",
+    "image": "https://surl.gd/auqzyj",
+    "filters": {
+      "brand": "Sennheiser",
+      "type": "Headphones",
+      "connection": "Bluetooth"
+    },
+    "isHot": true,
+    "isNew": false,
+    "isTopSeller": false,
+    "isPopular": true,
+    "isAccessory": false
+  },
+  {
+    "id": "audio-30",
+    "name": "Beats Studio3",
+    "price": 349,
+    "category": "audioProducts",
+    "image": "https://surli.cc/liuprb",
+    "filters": {
+      "brand": "Beats",
+      "type": "Headphones",
+      "connection": "Bluetooth"
+    },
+    "isHot": true,
+    "isNew": true,
+    "isTopSeller": true,
+    "isPopular": true,
+    "isAccessory": false
+  }
+]
