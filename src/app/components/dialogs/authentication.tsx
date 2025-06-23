@@ -13,10 +13,10 @@ import {
   RadioGroupItem,
   icons,
 } from '@/app/components/ui-kit';
+import SignInImg from '@/assets/images/sign-in.jpg';
+import SignUpImg from '@/assets/images/sign-up.jpg';
 import { cn } from '@/lib/utils';
 
-import SignInImg from '../../../../public/assets/sign-in.jpg';
-import SignUpImg from '../../../../public/assets/sign-up.jpg';
 import SignInForm from './signIn-form';
 import SignUpForm from './signUp-form';
 
