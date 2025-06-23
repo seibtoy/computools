@@ -30,7 +30,7 @@ const urwGeometric = localFont({
       style: 'normal',
     },
     {
-      path: '../../assets/fonts/URWGeometric-Extrabold.woff2',
+      path: '../../assets/fonts/URWGeometric-ExtraBold.woff2',
       weight: '700',
       style: 'normal',
     },
