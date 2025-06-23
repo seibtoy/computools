@@ -2,8 +2,7 @@ import Image from 'next/image';
 import { ComponentType } from 'react';
 
 import { Button, type IconProps, Input, icons } from '@/app/components/ui-kit';
-
-import Logo from '../../../../public/assets/footer-logo.png';
+import Logo from '@/assets/images/footer-logo.png';
 
 export default function Footer() {
   const InfoIcon = icons.info;

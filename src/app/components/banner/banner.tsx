@@ -1,9 +1,9 @@
 import Image from 'next/image';
 
-import HeadphonesBanner from '../../../../public/assets/banners/headphones-banner.png';
-import LaptopBanner from '../../../../public/assets/banners/laptop-banner.png';
-import MainBanner from '../../../../public/assets/banners/main-banner.png';
-import TabletBanner from '../../../../public/assets/banners/tablet-banner.png';
+import HeadphonesBanner from '@/assets/images/banners/headphones-banner.png';
+import LaptopBanner from '@/assets/images/banners/laptop-banner.png';
+import MainBanner from '@/assets/images/banners/main-banner.png';
+import TabletBanner from '@/assets/images/banners/tablet-banner.png';
 
 export default function Banner() {
   return (

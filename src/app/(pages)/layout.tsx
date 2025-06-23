@@ -10,37 +10,37 @@ import './../globals.css';
 const urwGeometric = localFont({
   src: [
     {
-      path: '../../../public/fonts/URWGeometric-Regular.woff2',
+      path: '@/assets/fonts/URWGeometric-Regular.woff2',
       weight: '300',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/URWGeometric-Medium.woff2',
+      path: '@/assets/fonts/URWGeometric-Medium.woff2',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/URWGeometric-Semibold.woff2',
+      path: '@/assets/fonts/URWGeometric-Semibold.woff2',
       weight: '500',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/URWGeometric-Bold.woff2',
+      path: '@/assets/fonts/URWGeometric-Bold.woff2',
       weight: '600',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/URWGeometric-Extrabold.woff2',
+      path: '@/assets/fonts/URWGeometric-Extrabold.woff2',
       weight: '700',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/URWGeometric-Heavy.woff2',
+      path: '@/assets/fonts/URWGeometric-Heavy.woff2',
       weight: '800',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/URWGeometric-Black.woff2',
+      path: '@/assets/fonts/URWGeometric-Black.woff2',
       weight: '900',
       style: 'normal',
     },
