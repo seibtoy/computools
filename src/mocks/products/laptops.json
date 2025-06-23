@@ -8,7 +8,7 @@
     "filters": {
       "brand": "Apple",
       "diagonal": 16,
-      "colors": ["Grey"]
+      "colors": "Grey"
     },
     "isHot": true,
     "isNew": true,
@@ -25,7 +25,7 @@
     "filters": {
       "brand": "Acer",
       "diagonal": 14.1,
-      "colors": ["Grey"]
+      "colors": "Grey"
     },
     "isHot": true,
     "isNew": false,
@@ -42,7 +42,7 @@
     "filters": {
       "brand": "Asus",
       "diagonal": 13.3,
-      "colors": ["Blue"]
+      "colors": "Blue"
     },
     "isHot": false,
     "isNew": true,
@@ -59,7 +59,7 @@
     "filters": {
       "brand": "Samsung",
       "diagonal": 15.6,
-      "colors": ["Black"]
+      "colors": "Black"
     },
     "isHot": false,
     "isNew": true,
@@ -76,7 +76,7 @@
     "filters": {
       "brand": "Dell",
       "diagonal": 15,
-      "colors": ["White"]
+      "colors": "White"
     },
     "isHot": true,
     "isNew": true,
@@ -93,7 +93,7 @@
     "filters": {
       "brand": "LG",
       "diagonal": 17.3,
-      "colors": ["Black"]
+      "colors": "Black"
     },
     "isHot": true,
     "isNew": false,
@@ -110,7 +110,7 @@
     "filters": {
       "brand": "Lenovo",
       "diagonal": 14.1,
-      "colors": ["Grey"]
+      "colors": "Grey"
     },
     "isHot": false,
     "isNew": false,
@@ -127,7 +127,7 @@
     "filters": {
       "brand": "Huawei",
       "diagonal": 16,
-      "colors": ["Silver"]
+      "colors": "Silver"
     },
     "isHot": true,
     "isNew": false,
@@ -144,7 +144,7 @@
     "filters": {
       "brand": "Toshiba",
       "diagonal": 15.6,
-      "colors": ["Blue"]
+      "colors": "Blue"
     },
     "isHot": false,
     "isNew": true,
@@ -161,7 +161,7 @@
     "filters": {
       "brand": "MSI",
       "diagonal": 14.1,
-      "colors": ["Purple"]
+      "colors": "Purple"
     },
     "isHot": true,
     "isNew": false,
@@ -178,7 +178,7 @@
     "filters": {
       "brand": "Apple",
       "diagonal": 13.3,
-      "colors": ["Grey"]
+      "colors": "Grey"
     },
     "isHot": false,
     "isNew": true,
@@ -195,7 +195,7 @@
     "filters": {
       "brand": "Asus",
       "diagonal": 14.1,
-      "colors": ["Red"]
+      "colors": "Red"
     },
     "isHot": true,
     "isNew": true,
@@ -212,7 +212,7 @@
     "filters": {
       "brand": "Samsung",
       "diagonal": 13.3,
-      "colors": ["Blue"]
+      "colors": "Blue"
     },
     "isHot": false,
     "isNew": false,
@@ -229,7 +229,7 @@
     "filters": {
       "brand": "Lenovo",
       "diagonal": 15.6,
-      "colors": ["Green"]
+      "colors": "Green"
     },
     "isHot": true,
     "isNew": true,
@@ -246,7 +246,7 @@
     "filters": {
       "brand": "Toshiba",
       "diagonal": 15.4,
-      "colors": ["White"]
+      "colors": "White"
     },
     "isHot": false,
     "isNew": false,
@@ -263,7 +263,7 @@
     "filters": {
       "brand": "MSI",
       "diagonal": 16,
-      "colors": ["Black"]
+      "colors": "Black"
     },
     "isHot": true,
     "isNew": true,
@@ -280,7 +280,7 @@
     "filters": {
       "brand": "LG",
       "diagonal": 13.3,
-      "colors": ["Orange"]
+      "colors": "Orange"
     },
     "isHot": false,
     "isNew": true,
@@ -297,7 +297,7 @@
     "filters": {
       "brand": "Huawei",
       "diagonal": 14.1,
-      "colors": ["Grey"]
+      "colors": "Grey"
     },
     "isHot": true,
     "isNew": false,
@@ -314,7 +314,7 @@
     "filters": {
       "brand": "Acer",
       "diagonal": 15.6,
-      "colors": ["Red"]
+      "colors": "Red"
     },
     "isHot": false,
     "isNew": false,
@@ -331,7 +331,7 @@
     "filters": {
       "brand": "Apple",
       "diagonal": 14.1,
-      "colors": ["Grey"]
+      "colors": "Grey"
     },
     "isHot": true,
     "isNew": true,
@@ -348,7 +348,7 @@
     "filters": {
       "brand": "Asus",
       "diagonal": 15.4,
-      "colors": ["Yellow"]
+      "colors": "Yellow"
     },
     "isHot": false,
     "isNew": false,
@@ -365,7 +365,7 @@
     "filters": {
       "brand": "Dell",
       "diagonal": 14.1,
-      "colors": ["Green"]
+      "colors": "Green"
     },
     "isHot": false,
     "isNew": true,
@@ -382,7 +382,7 @@
     "filters": {
       "brand": "Samsung",
       "diagonal": 15,
-      "colors": ["Purple"]
+      "colors": "Purple"
     },
     "isHot": true,
     "isNew": false,
@@ -399,7 +399,7 @@
     "filters": {
       "brand": "Lenovo",
       "diagonal": 15.6,
-      "colors": ["Orange"]
+      "colors": "Orange"
     },
     "isHot": false,
     "isNew": false,
@@ -416,7 +416,7 @@
     "filters": {
       "brand": "Toshiba",
       "diagonal": 13.3,
-      "colors": ["Black"]
+      "colors": "Black"
     },
     "isHot": true,
     "isNew": false,
@@ -433,7 +433,7 @@
     "filters": {
       "brand": "MSI",
       "diagonal": 16,
-      "colors": ["Grey"]
+      "colors": "Grey"
     },
     "isHot": true,
     "isNew": true,
@@ -450,7 +450,7 @@
     "filters": {
       "brand": "Huawei",
       "diagonal": 14.1,
-      "colors": ["Blue"]
+      "colors": "Blue"
     },
     "isHot": false,
     "isNew": true,
@@ -467,7 +467,7 @@
     "filters": {
       "brand": "LG",
       "diagonal": 16,
-      "colors": ["White"]
+      "colors": "White"
     },
     "isHot": true,
     "isNew": true,
@@ -484,7 +484,7 @@
     "filters": {
       "brand": "Acer",
       "diagonal": 13.3,
-      "colors": ["Grey"]
+      "colors": "Grey"
     },
     "isHot": false,
     "isNew": false,
@@ -501,7 +501,7 @@
     "filters": {
       "brand": "Asus",
       "diagonal": 15.6,
-      "colors": ["Black"]
+      "colors": "Black"
     },
     "isHot": true,
     "isNew": false,
