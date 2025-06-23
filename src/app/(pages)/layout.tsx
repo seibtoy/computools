@@ -20,7 +20,7 @@ const urwGeometric = localFont({
       style: 'normal',
     },
     {
-      path: '../../assets/fonts/URWGeometric-Semibold.woff2',
+      path: '../../assets/fonts/URWGeometric-SemiBold.woff2',
       weight: '500',
       style: 'normal',
     },
