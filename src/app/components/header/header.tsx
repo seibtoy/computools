@@ -5,9 +5,8 @@ import { useState } from 'react';
 
 import { AuthDialog } from '@/app/components/dialogs/authentication';
 import { Button, Input, icons } from '@/app/components/ui-kit';
-
-import MobileLogo from '../../../../public/assets/background-logo.png';
-import DesktopLogo from '../../../../public/assets/header-logo.png';
+import MobileLogo from '@/assets/images/background-logo.png';
+import DesktopLogo from '@/assets/images/header-logo.png';
 
 const MagnifyingGlass = icons.magnifyingGlass;
 const MenuAlt = icons.menuAlt;

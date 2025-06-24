@@ -5,46 +5,42 @@ import type { ReactNode } from 'react';
 
 import { cn } from '@/lib/utils';
 
-import Banner from '../components/banner/banner';
-import Footer from '../components/footer/footer';
-import Header from '../components/header/header';
-import Sidebar from '../components/sidebar/sidebar';
 import './../globals.css';
 
 const urwGeometric = localFont({
   src: [
     {
-      path: '../../../public/fonts/URWGeometric-Regular.woff2',
+      path: '../../assets/fonts/URWGeometric-Regular.woff2',
       weight: '300',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/URWGeometric-Medium.woff2',
+      path: '../../assets/fonts/URWGeometric-Medium.woff2',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/URWGeometric-Semibold.woff2',
+      path: '../../assets/fonts/URWGeometric-SemiBold.woff2',
       weight: '500',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/URWGeometric-Bold.woff2',
+      path: '../../assets/fonts/URWGeometric-Bold.woff2',
       weight: '600',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/URWGeometric-Extrabold.woff2',
+      path: '../../assets/fonts/URWGeometric-ExtraBold.woff2',
       weight: '700',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/URWGeometric-Heavy.woff2',
+      path: '../../assets/fonts/URWGeometric-Heavy.woff2',
       weight: '800',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/URWGeometric-Black.woff2',
+      path: '../../assets/fonts/URWGeometric-Black.woff2',
       weight: '900',
       style: 'normal',
     },
@@ -76,21 +72,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn(geistSans.variable, geistMono.variable, urwGeometric.variable, 'antialiased')}>
-        <Header />
-        <div className="flex flex-col lg:flex-row">
-          <div className="lg:min-w-70 lg:max-w-90 lg:w-full lg:border-r-1 lg:border-medium-gray lg:ml-21.5 lg:pl-5 lg:pt-10 max-lg:mx-6 max-lg:mt-6 max-lg:mb-0 overflow-x-auto scrollbar-hide h-fit">
-            <Sidebar />
-          </div>
-          <main className="flex-1 min-w-0 py-10.5 pl-10.5 pr-21.5 max-lg:px-6 max-lg:pt-0">
-            <div className="max-w-360 mx-auto ">
-              <div className="max-lg:pt-6 pb-18.5 max-lg:pb-20">
-                <Banner />
-              </div>
-              {children}
-            </div>
-          </main>
-        </div>
-        <Footer />
+        {children}
       </body>
     </html>
   );

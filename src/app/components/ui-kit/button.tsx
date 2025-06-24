@@ -46,7 +46,10 @@ function Button({ className, variant, size, asChild = false, children, iconPosit
   return (
     <Comp
       data-slot="button"
-      className={cn('inline-flex justify-center items-center gap-2', buttonVariants({ variant, size, className }))}
+      className={cn(
+        'inline-flex justify-center items-center gap-2 h-fit',
+        buttonVariants({ variant, size, className })
+      )}
       {...props}
     >
       {IconComponent && iconPosition === 'left' && <IconComponent className="w-4 h-4" />}
