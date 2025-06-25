@@ -26,6 +26,7 @@ import {
   LaptopIcon,
   LeftArrowIcon,
   ListIcon,
+  LogoutIcon,
   MagnifyingGlassIcon,
   MenuAltIcon,
   MicrophoneIcon,
@@ -84,6 +85,7 @@ export const icons = {
   headphonesMic: HeadphonesMicIcon,
   check: CheckIcon,
   google: GoogleIcon,
+  logout: LogoutIcon,
 };
 
 export type IconName = keyof typeof icons;

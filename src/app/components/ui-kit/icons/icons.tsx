@@ -843,3 +843,16 @@ export const GoogleIcon = ({ color = 'currentColor', ...props }: IconProps) => (
     />
   </svg>
 );
+
+export const LogoutIcon = ({ color = 'currentColor', strokeWidth = 1.5, ...props }: IconProps) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 14" width={16} height={14} fill="none" {...props}>
+    <path
+      style={{ color }}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={strokeWidth}
+      d="M8.695 6.993h6.302m0 0-2.334-2.801m2.334 2.8-2.334 2.802M9.395 3.492V2.213A1.4 1.4 0 0 0 7.88.817l-5.603.467A1.4 1.4 0 0 0 .992 2.679v8.627a1.4 1.4 0 0 0 1.284 1.396l5.603.467a1.402 1.402 0 0 0 1.516-1.396v-1.279"
+    />
+  </svg>
+);

@@ -33,7 +33,14 @@ export default function Card({ tagLabel, tagColor, imageSrc, price, title, class
         <Heart fill={isLiked ? 'var(--color-green-flash)' : 'white'} onClick={() => setIsLiked((prev) => !prev)} />
       </div>
       <div className="relative w-full aspect-[3/4] max-h-70">
-        <Image src={imageSrc} alt="item" fill loading="lazy" className="object-contain select-none" />
+        <Image
+          src={imageSrc}
+          alt="item"
+          fill
+          sizes="(max-width: 768px) 100vw, 33vw"
+          loading="lazy"
+          className="object-contain select-none"
+        />
       </div>
       <div className="flex flex-col gap-2">
         <span className="uppercase text-lg truncate">{title}</span>

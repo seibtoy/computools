@@ -18,7 +18,7 @@ export default function MainLayout({ children, filtersContent, bannerContent = <
     <>
       <Header />
       <div className="flex flex-col lg:flex-row">
-        <div className="flex flex-col gap-25 lg:min-w-70 lg:max-w-110 lg:w-full lg:ml-21.5 lg:pl-5  max-lg:mx-6 max-lg:mt-6 max-lg:mb-0 overflow-x-auto scrollbar-hide h-fit">
+        <div className="flex flex-col gap-25 lg:min-w-70 lg:max-w-110 lg:w-full lg:ml-21.5 max-lg:mx-6 max-lg:mt-6 max-lg:mb-0 overflow-x-auto scrollbar-hide h-fit">
           <div className="flex flex-col gap-35">
             <div className="lg:border-r-1 lg:border-medium-gray lg:pt-10">
               <Sidebar />
