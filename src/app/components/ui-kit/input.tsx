@@ -1,7 +1,7 @@
 import { type ComponentProps, useId } from 'react';
 
 import { type IconName, icons } from '@/app/components/ui-kit';
-import { cn } from '@/lib/utils';
+import { cn } from '@/lib';
 
 type InputVariant = 'default' | 'search' | 'auth';
 

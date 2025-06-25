@@ -3,44 +3,44 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import localFont from 'next/font/local';
 import type { ReactNode } from 'react';
 
-import { cn } from '@/lib/utils';
+import { cn } from '@/lib';
 
 import './../globals.css';
 
 const urwGeometric = localFont({
   src: [
     {
-      path: '../../assets/fonts/URWGeometric-Regular.woff2',
+      path: '../../../public/assets/fonts/URWGeometric-Regular.woff2',
       weight: '300',
       style: 'normal',
     },
     {
-      path: '../../assets/fonts/URWGeometric-Medium.woff2',
+      path: '../../../public/assets/fonts/URWGeometric-Medium.woff2',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../../assets/fonts/URWGeometric-SemiBold.woff2',
+      path: '../../../public/assets/fonts/URWGeometric-SemiBold.woff2',
       weight: '500',
       style: 'normal',
     },
     {
-      path: '../../assets/fonts/URWGeometric-Bold.woff2',
+      path: '../../../public/assets/fonts/URWGeometric-Bold.woff2',
       weight: '600',
       style: 'normal',
     },
     {
-      path: '../../assets/fonts/URWGeometric-ExtraBold.woff2',
+      path: '../../../public/assets/fonts/URWGeometric-ExtraBold.woff2',
       weight: '700',
       style: 'normal',
     },
     {
-      path: '../../assets/fonts/URWGeometric-Heavy.woff2',
+      path: '../../../public/assets/fonts/URWGeometric-Heavy.woff2',
       weight: '800',
       style: 'normal',
     },
     {
-      path: '../../assets/fonts/URWGeometric-Black.woff2',
+      path: '../../../public/assets/fonts/URWGeometric-Black.woff2',
       weight: '900',
       style: 'normal',
     },
