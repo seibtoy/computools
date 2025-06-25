@@ -23,7 +23,9 @@ export default function MainLayout({ children, filtersContent, bannerContent = <
             <div className="lg:border-r-1 lg:border-medium-gray lg:pt-10">
               <Sidebar />
             </div>
-            <div className="px-13 py-2 lg:border-r-1 lg:border-medium-gray max-lg:hidden">{filtersContent}</div>
+            {filtersContent && (
+              <div className="px-13 py-2 lg:border-r-1 lg:border-medium-gray max-lg:hidden">{filtersContent}</div>
+            )}
           </div>
         </div>
         <main className="flex-1 min-w-0 py-10.5 pl-10.5 pr-21.5 max-lg:px-6 max-lg:pt-0">

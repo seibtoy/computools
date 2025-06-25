@@ -33,9 +33,9 @@ export default function Header() {
       <Link href="/">
         <Image src={DesktopLogo} alt="logo" className="h-21.5 w-86 max-lg:hidden cursor-pointer" />
       </Link>
-      <div className="w-full h-full flex justify-center items-center lg:pl-10 lg:pr-21.5 max-lg:px-4 gap-10">
+      <div className="w-full h-full flex justify-center items-center pl-10 pr-21.5 gap-10">
         <div className="flex flex-1">
-          <div className={cn(!isSearchOpen ? 'max-lg:hidden' : 'flex-1')}>
+          <div className={cn(!isSearchOpen ? 'flex-1 max-lg:hidden' : '')}>
             <Input
               placeholder=""
               variant="search"
