@@ -1,12 +1,15 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react';
 
 import { AuthDialog } from '@/app/components/dialogs/authentication';
 import { Button, Input, icons } from '@/app/components/ui-kit';
-import MobileLogo from '@/assets/images/background-logo.png';
-import DesktopLogo from '@/assets/images/header-logo.png';
+import { useAuthStore } from '@/store';
+
+import MobileLogo from '../../../../public/assets/images/background-logo.png';
+import DesktopLogo from '../../../../public/assets/images/header-logo.png';
 
 const MagnifyingGlass = icons.magnifyingGlass;
 const MenuAlt = icons.menuAlt;
@@ -14,14 +17,22 @@ const ChevronDown = icons.chevronDown;
 const Heart = icons.heart;
 const Cart = icons.cart;
 const CrossedUser = icons.crossedUser;
+const User = icons.user;
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const isLoggedIn = useAuthStore((state) => state.isLoggedIn);
+
+  const logout = useAuthStore((state) => state.logout);
 
   return (
     <header className="flex items-center max-lg:justify-between max-lg:h-15 max-lg:pr-6 h-21.5 bg-light-gray">
-      <Image src={MobileLogo} alt="logo" className="max-lg:h-15 max-lg:w-15 lg:hidden" />
-      <Image src={DesktopLogo} alt="logo" className="h-21.5 w-86 max-lg:hidden" />
+      <Link href="/">
+        <Image src={MobileLogo} alt="logo" className="max-lg:h-15 max-lg:w-15 lg:hidden cursor-pointer" />
+      </Link>
+      <Link href="/">
+        <Image src={DesktopLogo} alt="logo" className="h-21.5 w-86 max-lg:hidden cursor-pointer" />
+      </Link>
       <div className="flex gap-6 lg:hidden">
         <MagnifyingGlass width={20} height={20} color="black" className="cursor-pointer" />
         <MenuAlt width={20} height={20} color="black" className="cursor-pointer" />
@@ -59,7 +70,16 @@ export default function Header() {
                 0
               </div>
             </div>
-            <CrossedUser color="var(--color-red)" className="cursor-pointer" onClick={() => setOpen(true)} />
+            {isLoggedIn ? (
+              <User className="cursor-pointer" fill="var(--color-white)" onClick={logout} />
+            ) : (
+              <CrossedUser
+                type="button"
+                color="var(--color-red)"
+                className="cursor-pointer"
+                onClick={() => setOpen(true)}
+              />
+            )}
           </div>
         </div>
       </div>

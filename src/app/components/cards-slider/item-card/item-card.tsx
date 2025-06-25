@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 import { icons } from '@/app/components/ui-kit';
-import { cn } from '@/lib/utils';
+import { cn } from '@/lib';
 
 interface Props {
   tagColor: string;

@@ -3,7 +3,7 @@ import { type VariantProps, cva } from 'class-variance-authority';
 import type { ComponentProps } from 'react';
 
 import { type IconName, icons } from '@/app/components/ui-kit';
-import { cn } from '@/lib/utils';
+import { cn } from '@/lib';
 
 interface Props extends ComponentProps<'button'>, VariantProps<typeof buttonVariants> {
   icon?: IconName;
