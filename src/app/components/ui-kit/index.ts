@@ -6,3 +6,5 @@ export * from './dialog';
 export * from './radio-group';
 export * from './checkbox';
 export * from './notification';
+export * from './popover';
+export * from './sheet';

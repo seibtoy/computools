@@ -28,6 +28,11 @@ const nextConfig: NextConfig = {
         hostname: 'surl.lu',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'ik.imagekit.io',
+        pathname: '/**',
+      },
     ],
   },
 };

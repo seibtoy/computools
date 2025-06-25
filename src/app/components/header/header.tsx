@@ -5,25 +5,25 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 import { AuthDialog } from '@/app/components/dialogs/authentication';
+import PersonalAreaPopupMobile from '@/app/components/header/personal-area/personal-area.mobile.sheet';
+import PersonalAreaPopup from '@/app/components/header/personal-area/personal-area.popup';
 import { Button, Input, icons } from '@/app/components/ui-kit';
+import { cn } from '@/lib';
 import { useAuthStore } from '@/store';
 
 import MobileLogo from '../../../../public/assets/images/background-logo.png';
 import DesktopLogo from '../../../../public/assets/images/header-logo.png';
 
 const MagnifyingGlass = icons.magnifyingGlass;
-const MenuAlt = icons.menuAlt;
 const ChevronDown = icons.chevronDown;
 const Heart = icons.heart;
 const Cart = icons.cart;
 const CrossedUser = icons.crossedUser;
-const User = icons.user;
 
 export default function Header() {
-  const [open, setOpen] = useState(false);
+  const [isOpenAuth, setIsOpenAuth] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
   const isLoggedIn = useAuthStore((state) => state.isLoggedIn);
-
-  const logout = useAuthStore((state) => state.logout);
 
   return (
     <header className="flex items-center max-lg:justify-between max-lg:h-15 max-lg:pr-6 h-21.5 bg-light-gray">
@@ -33,13 +33,9 @@ export default function Header() {
       <Link href="/">
         <Image src={DesktopLogo} alt="logo" className="h-21.5 w-86 max-lg:hidden cursor-pointer" />
       </Link>
-      <div className="flex gap-6 lg:hidden">
-        <MagnifyingGlass width={20} height={20} color="black" className="cursor-pointer" />
-        <MenuAlt width={20} height={20} color="black" className="cursor-pointer" />
-      </div>
-      <div className="w-full h-full flex justify-center items-center pl-10 pr-21.5 max-lg:hidden gap-10">
+      <div className="w-full h-full flex justify-center items-center lg:pl-10 lg:pr-21.5 max-lg:px-4 gap-10">
         <div className="flex flex-1">
-          <div className="flex-1">
+          <div className={cn(!isSearchOpen ? 'max-lg:hidden' : 'flex-1')}>
             <Input
               placeholder=""
               variant="search"
@@ -48,11 +44,11 @@ export default function Header() {
               rightIcon="microphone"
             />
           </div>
-          <Button variant="greenBtn" iconPosition="right" icon="rightArrow" className="h-full">
+          <Button variant="greenBtn" iconPosition="right" icon="rightArrow" className="h-full max-lg:hidden">
             Search
           </Button>
         </div>
-        <div className="flex items-center h-full">
+        <div className="flex items-center h-full max-lg:hidden">
           <div className="flex items-center gap-2 h-full px-2">
             ENG <ChevronDown />
           </div>
@@ -71,19 +67,29 @@ export default function Header() {
               </div>
             </div>
             {isLoggedIn ? (
-              <User className="cursor-pointer" fill="var(--color-white)" onClick={logout} />
+              <PersonalAreaPopup />
             ) : (
               <CrossedUser
                 type="button"
                 color="var(--color-red)"
                 className="cursor-pointer"
-                onClick={() => setOpen(true)}
+                onClick={() => setIsOpenAuth(true)}
               />
             )}
           </div>
         </div>
       </div>
-      <AuthDialog open={open} onOpenChange={setOpen} />
+      <div className="flex gap-6 lg:hidden">
+        <MagnifyingGlass
+          width={20}
+          height={20}
+          color="black"
+          className={cn(isSearchOpen ? 'hidden' : 'cursor-pointer')}
+          onClick={() => setIsSearchOpen(true)}
+        />
+        <PersonalAreaPopupMobile onOpenChange={setIsOpenAuth} />
+      </div>
+      <AuthDialog open={isOpenAuth} onOpenChange={setIsOpenAuth} />
     </header>
   );
 }

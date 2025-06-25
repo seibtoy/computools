@@ -1,12 +1,12 @@
 import Link from 'next/link';
-import type { SVGProps } from 'react';
+import type { ComponentType, SVGProps } from 'react';
 
 import { icons } from '@/app/components/ui-kit';
 
 interface Data {
   label: string;
   path: string;
-  icon: React.ComponentType<SVGProps<SVGSVGElement>>;
+  icon: ComponentType<SVGProps<SVGSVGElement>>;
 }
 
 export default function Sidebar() {
@@ -34,7 +34,7 @@ export default function Sidebar() {
 
           return (
             <Link href={item.path} key={index} scroll={false} passHref>
-              <li className="flex items-center gap-4 h-15 max-lg:h-10 max-lg:bg-super-light-gray max-lg:px-4">
+              <li className="flex items-center gap-4 h-15 max-lg:h-10 lg:pl-5 max-lg:bg-super-light-gray max-lg:px-4 hover:bg-super-light-gray">
                 <div className="w-5 flex items-center justify-center">
                   <IconComponent color={index === sidebarData.length - 1 ? 'var(--color-red)' : 'var(--color-gray)'} />
                 </div>
