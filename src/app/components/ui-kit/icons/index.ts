@@ -14,12 +14,14 @@ import {
   FAQIcon,
   FacebookLogoIcon,
   FlaskIcon,
+  FunnelIcon,
   GamepadIcon,
   GoogleIcon,
   HairdryerIcon,
   HeadphonesMicIcon,
   HeartIcon,
   HideEyeIcon,
+  HouseIcon,
   InfoIcon,
   InstagramLogoIcon,
   LanguagesIcon,
@@ -86,6 +88,8 @@ export const icons = {
   check: CheckIcon,
   google: GoogleIcon,
   logout: LogoutIcon,
+  house: HouseIcon,
+  funnel: FunnelIcon,
 };
 
 export type IconName = keyof typeof icons;

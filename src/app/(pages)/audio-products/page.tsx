@@ -2,7 +2,7 @@
 
 import MainLayout from '@/app/(pages)/mainLayout';
 import CardsSlider from '@/app/components/cards-slider/cards-slider';
-import Filters from '@/app/components/filters/filters';
+import ResponsiveFilters from '@/app/components/filters/filters-responsive';
 import { useProductFilters } from '@/hooks';
 import { audioProducts, filters } from '@/mocks';
 import { shuffleArray } from '@/utils';
@@ -23,7 +23,7 @@ export default function AudioProductsPage() {
     <MainLayout
       filtersContent={
         <>
-          <Filters
+          <ResponsiveFilters
             filtersData={filters.audioProducts}
             selectedFilters={selectedFilters}
             onChange={toggleFilter}

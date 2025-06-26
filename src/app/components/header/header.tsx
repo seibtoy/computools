@@ -27,10 +27,10 @@ export default function Header() {
 
   return (
     <header className="flex items-center max-lg:justify-between max-lg:h-15 max-lg:pr-6 h-21.5 bg-light-gray">
-      <Link href="/">
+      <Link href="/" className="shrink-0">
         <Image src={MobileLogo} alt="logo" className="max-lg:h-15 max-lg:w-15 lg:hidden cursor-pointer" />
       </Link>
-      <Link href="/">
+      <Link href="/" className="shrink-0">
         <Image src={DesktopLogo} alt="logo" className="h-21.5 w-86 max-lg:hidden cursor-pointer" />
       </Link>
       <div className="w-full h-full flex justify-center items-center pl-10 pr-21.5 gap-10">
