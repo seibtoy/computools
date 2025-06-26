@@ -8,3 +8,5 @@ export * from './checkbox';
 export * from './notification';
 export * from './popover';
 export * from './sheet';
+export * from './breadcrumb/breadcrumb';
+export * from './breadcrumb/beadcrumb-component';

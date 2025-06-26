@@ -856,3 +856,34 @@ export const LogoutIcon = ({ color = 'currentColor', strokeWidth = 1.5, ...props
     />
   </svg>
 );
+
+export const HouseIcon = ({ color = 'currentColor', strokeWidth = 1.5, ...props }: IconProps) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 16" width={14} height={16} fill="none" {...props}>
+    <path
+      style={{ color }}
+      stroke="currentColor"
+      strokeWidth={strokeWidth}
+      d="M7.326 1.546a.833.833 0 0 0-1.217.03L.962 7.34a.833.833 0 0 0-.212.555v6.349a.833.833 0 0 0 .833.833h2.5a.833.833 0 0 0 .834-.833v-2.917a.833.833 0 0 1 .833-.833h2.5a.834.834 0 0 1 .833.833v2.917a.833.833 0 0 0 .834.833h2.5a.833.833 0 0 0 .833-.833V7.919a.833.833 0 0 0-.24-.583l-5.684-5.79Z"
+    />
+  </svg>
+);
+
+export const FunnelIcon = ({ color = 'currentColor', strokeWidth = 1.5, ...props }: IconProps) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 16 16"
+    style={{ color }}
+    width={16}
+    height={16}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={strokeWidth}
+      d="M15.003 1.695H.993l5.603 6.627v4.582l2.802 1.4V8.323l5.605-6.627Z"
+    />
+  </svg>
+);
