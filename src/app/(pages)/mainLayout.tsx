@@ -51,7 +51,6 @@ export default function MainLayout({ children, filtersContent, bannerContent = <
         </div>
         <PagginationComponent />
       </div>
-
       <Footer />
     </>
   );
