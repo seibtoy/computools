@@ -1,6 +1,7 @@
 import { type ChangeEvent, type FormEvent, useState } from 'react';
 
 import { Button, Input, Notification } from '@/app/components/ui-kit';
+import { cn } from '@/lib';
 import { registerUser } from '@/services/auth';
 
 interface Props {
@@ -13,6 +14,7 @@ export default function SignInForm({ onSuccess, accepted }: Props) {
   const [password, setPassword] = useState('');
   const [repeatPassword, setRepeatPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
+  const [isPasswordVisible, setIsPasswordVisible] = useState(false);
 
   const handleEmailChange = (e: ChangeEvent<HTMLInputElement>) => {
     setEmail(e.target.value);
@@ -70,22 +72,32 @@ export default function SignInForm({ onSuccess, accepted }: Props) {
           variant="auth"
           label="* password"
           labelClassname="uppercase"
-          className="placeholder:text-medium-gray placeholder:tracking-normal letter-spacing-20"
-          type="password"
-          rightIcon="eye"
-          rightIconColor="var(--color-gray)"
+          className={cn(
+            isPasswordVisible ? 'tracking-normal' : 'letter-spacing-20',
+            'placeholder:text-medium-gray placeholder:tracking-normal'
+          )}
+          type={isPasswordVisible ? 'text' : 'password'}
+          rightIcon={isPasswordVisible ? 'eye' : 'hideEye'}
+          rightIconClassname={isPasswordVisible ? 'text-[var(--color-gray)]' : 'text-[var(--color-black)]'}
           value={password}
           onChange={handlePasswordChange}
+          onRightIconClick={() => setIsPasswordVisible((prev) => !prev)}
         />
         <Input
           placeholder="Enter"
           variant="auth"
           label="* repeat password"
           labelClassname="uppercase"
-          className="placeholder:text-medium-gray placeholder:tracking-normal letter-spacing-20"
-          type="password"
+          className={cn(
+            isPasswordVisible ? 'tracking-normal' : 'letter-spacing-20',
+            'placeholder:text-medium-gray placeholder:tracking-normal'
+          )}
+          type={isPasswordVisible ? 'text' : 'password'}
+          rightIcon={isPasswordVisible ? 'eye' : 'hideEye'}
+          rightIconClassname={isPasswordVisible ? 'text-[var(--color-gray)]' : 'text-[var(--color-black)]'}
           value={repeatPassword}
           onChange={handleRepeatPasswordChange}
+          onRightIconClick={() => setIsPasswordVisible((prev) => !prev)}
         />
       </div>
       <div className="h-9">

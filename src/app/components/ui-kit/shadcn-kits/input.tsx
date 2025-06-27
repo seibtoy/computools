@@ -12,8 +12,10 @@ interface Props extends ComponentProps<'input'> {
   labelClassname?: string;
   leftIcon?: IconName;
   rightIcon?: IconName;
-  rightIconColor?: string;
-  leftIconColor?: string;
+  rightIconClassname?: string;
+  leftIconClassname?: string;
+  onRightIconClick?: () => void;
+  onLeftIconClick?: () => void;
 }
 
 function Input({
@@ -23,11 +25,13 @@ function Input({
   rightIcon,
   labelClassname,
   id,
-  rightIconColor,
-  leftIconColor,
+  rightIconClassname,
+  leftIconClassname,
   placeholder,
   variant = 'default',
   type,
+  onRightIconClick,
+  onLeftIconClick,
   ...props
 }: Props) {
   const inputId = useId();
@@ -67,8 +71,10 @@ function Input({
       <div className="relative flex items-center">
         {LeftIconComponent && (
           <LeftIconComponent
-            color={leftIconColor}
-            className="absolute left-3 w-5 h-5 text-muted-foreground pointer-events-none"
+            width={20}
+            height={20}
+            className={cn('absolute left-3 w-5 h-5 text-muted-foreground pointer-events-none', leftIconClassname)}
+            onClick={onLeftIconClick}
           />
         )}
         <input
@@ -81,8 +87,14 @@ function Input({
         />
         {RightIconComponent && (
           <RightIconComponent
-            color={rightIconColor}
-            className="absolute right-3 w-5 h-5 text-muted-foreground pointer-events-none"
+            width={20}
+            height={20}
+            className={cn(
+              'absolute right-3 w-5 h-5',
+              onRightIconClick ? 'cursor-pointer' : 'pointer-events-none',
+              rightIconClassname
+            )}
+            onClick={onRightIconClick}
           />
         )}
       </div>

@@ -44,7 +44,11 @@ export default function Filters({ filtersData, selectedFilters, onChange, onClea
     <form className="flex flex-col gap-10">
       <div className="flex items-center justify-between">
         <div className="flex gap-3 items-center" onClick={() => setFiltersOpen(!filtersOpen)}>
-          <ChevronUp className={`${filtersOpen ? 'rotate-0' : 'rotate-180'} transition-transform duration-300`} />
+          <ChevronUp
+            width={16}
+            height={16}
+            className={`${filtersOpen ? 'rotate-0' : 'rotate-180'} transition-transform duration-300`}
+          />
           <h5 className="uppercase">Filters</h5>
         </div>
         {hasSelectedFilters(selectedFilters) && (
@@ -68,6 +72,8 @@ export default function Filters({ filtersData, selectedFilters, onChange, onClea
           <div key={key}>
             <div className="flex gap-3 items-center" onClick={() => toggleSubcategory(key)}>
               <ChevronUp
+                width={16}
+                height={16}
                 className={`${openSubcategories[key] ? 'rotate-0' : 'rotate-180'} transition-transform duration-300`}
               />
               <h6 className="uppercase">{key}</h6>

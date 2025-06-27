@@ -6,7 +6,7 @@ import Banner from '@/app/components/banner/banner';
 import Footer from '@/app/components/footer/footer';
 import Header from '@/app/components/header/header';
 import Sidebar from '@/app/components/sidebar/sidebar';
-import { BreadcrumbComponent } from '@/app/components/ui-kit';
+import { BreadcrumbComponent, Button, PagginationComponent } from '@/app/components/ui-kit';
 
 interface Props {
   filtersContent?: ReactNode;
@@ -40,6 +40,18 @@ export default function MainLayout({ children, filtersContent, bannerContent = <
           </div>
         </main>
       </div>
+      <div className="flex flex-col items-center justify-center pb-20 gap-20">
+        <div className="flex">
+          <div className="h-10 bg-super-light-gray flex items-center justify-center px-4 uppercase font-medium">
+            Explore more products
+          </div>
+          <Button variant="blackBtn" className="w-10 h-10">
+            ...
+          </Button>
+        </div>
+        <PagginationComponent />
+      </div>
+
       <Footer />
     </>
   );

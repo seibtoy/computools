@@ -36,7 +36,11 @@ export default function Sidebar() {
             <Link href={item.path} key={index} scroll={false} passHref>
               <li className="flex items-center gap-4 h-15 max-lg:h-10 lg:pl-5 max-lg:bg-super-light-gray max-lg:px-4 hover:bg-super-light-gray">
                 <div className="w-5 flex items-center justify-center">
-                  <IconComponent color={index === sidebarData.length - 1 ? 'var(--color-red)' : 'var(--color-gray)'} />
+                  <IconComponent
+                    width={20}
+                    height={20}
+                    color={index === sidebarData.length - 1 ? 'var(--color-red)' : 'var(--color-gray)'}
+                  />
                 </div>
                 <span className="font-normal uppercase whitespace-nowrap">{item.label}</span>
               </li>
