@@ -13,7 +13,7 @@ import {
 } from '@/app/components/ui-kit';
 
 import Logo from '../../../../public/assets/images/logo.png';
-import FiltersContent from './filters-сontent';
+import FiltersContent from './filters-content';
 
 export default function FiltersSheet(props: ComponentProps<typeof FiltersContent>) {
   const Funnel = icons.funnel;
