@@ -26,7 +26,7 @@ export default function FiltersSheet(props: ComponentProps<typeof Filters>) {
       </SheetTrigger>
       <SheetContent
         side="left"
-        className="bg-white border-white text-black flex flex-col gap-5 rounded-none px-6 w-screen"
+        className="bg-white border-white text-black flex flex-col gap-5 rounded-none px-6 w-screen max-lg:overflow-y-auto max-lg:pb-10"
       >
         <SheetHeader className="h-21 flex flex-row justify-between items-center border-b-1 border-gray">
           <Image src={Logo} alt="Logo" width={40} height={40} />

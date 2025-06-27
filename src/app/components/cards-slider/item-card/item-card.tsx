@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { useState } from 'react';
 
-import { icons } from '@/app/components/ui-kit';
+import { Badge, icons } from '@/app/components/ui-kit';
 import { cn } from '@/lib';
 
 interface Props {
@@ -27,10 +27,20 @@ export default function Card({ tagLabel, tagColor, imageSrc, price, title, class
       )}
     >
       <div className="flex items-center justify-between">
-        <div className={cn(tagColor, 'uppercase w-12.5 h-6 flex items-center justify-center text-white text-xs')}>
+        <Badge
+          className={cn(
+            tagColor,
+            'rounded-none uppercase w-12.5 h-6 flex items-center justify-center text-white text-xs'
+          )}
+        >
           {tagLabel}
-        </div>
-        <Heart fill={isLiked ? 'var(--color-green-flash)' : 'white'} onClick={() => setIsLiked((prev) => !prev)} />
+        </Badge>
+        <Heart
+          width={20}
+          height={20}
+          fill={isLiked ? 'var(--color-green-flash)' : 'white'}
+          onClick={() => setIsLiked((prev) => !prev)}
+        />
       </div>
       <div className="relative w-full aspect-[3/4] max-h-70">
         <Image

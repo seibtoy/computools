@@ -1,6 +1,7 @@
 import { type ChangeEvent, type FormEvent, useState } from 'react';
 
 import { Button, Input, Notification } from '@/app/components/ui-kit';
+import { cn } from '@/lib';
 import { loginUser } from '@/services/auth';
 import { useAuthStore } from '@/store';
 
@@ -8,6 +9,7 @@ export default function SignInForm() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
+  const [isPasswordVisible, setIsPasswordVisible] = useState(false);
 
   const login = useAuthStore((state) => state.login);
 
@@ -57,12 +59,16 @@ export default function SignInForm() {
           variant="auth"
           label="* password"
           labelClassname="uppercase"
-          className="placeholder:text-medium-gray placeholder:tracking-normal letter-spacing-20"
-          type="password"
-          rightIcon="eye"
-          rightIconColor="var(--color-gray)"
+          className={cn(
+            isPasswordVisible ? 'tracking-normal' : 'letter-spacing-20',
+            'placeholder:text-medium-gray placeholder:tracking-normal'
+          )}
+          type={isPasswordVisible ? 'text' : 'password'}
+          rightIcon={isPasswordVisible ? 'eye' : 'hideEye'}
+          rightIconClassname={isPasswordVisible ? 'text-[var(--color-gray)]' : 'text-[var(--color-black)]'}
           value={password}
           onChange={handlePasswordChange}
+          onRightIconClick={() => setIsPasswordVisible((prev) => !prev)}
         />
       </div>
       <div className="h-9">

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import type { ComponentType, SVGProps } from 'react';
 
 import {
+  Badge,
   DialogTitle,
   Sheet,
   SheetClose,
@@ -53,11 +54,11 @@ export default function PersonalAreaPopup({ onOpenChange }: Props) {
       <SheetTrigger asChild>
         <MenuAlt width={20} height={20} color="black" className="cursor-pointer" />
       </SheetTrigger>
-      <SheetContent className="bg-black border-black text-white flex flex-col gap-5 rounded-none px-6 w-screen">
+      <SheetContent className="bg-black border-black text-white flex flex-col gap-5 rounded-none px-6 w-screen max-lg:overflow-y-auto pb-5">
         <SheetHeader className="h-21 flex flex-row justify-between items-center border-b-1 border-gray">
           <Image src={Logo} alt="Logo" />
           <SheetClose>
-            <CrissCross className="cursor-pointer" color="var(--color-white)" />
+            <CrissCross width={20} height={20} className="cursor-pointer" color="var(--color-white)" />
           </SheetClose>
         </SheetHeader>
         <VisuallyHidden>
@@ -66,7 +67,7 @@ export default function PersonalAreaPopup({ onOpenChange }: Props) {
         <div>
           <div className="flex flex-col">
             <div className="flex items-center gap-4 px-5 h-15">
-              <Languages color="var(--color-gray)" />
+              <Languages width={20} height={20} color="var(--color-gray)" />
               <span className="uppercase">Languages</span>
             </div>
             <ul>
@@ -88,13 +89,13 @@ export default function PersonalAreaPopup({ onOpenChange }: Props) {
                 <Link href={item.path} key={index} scroll={false} passHref>
                   <li className="flex items-center gap-4 h-15 px-5 relative">
                     <div className="w-5 flex items-center justify-center">
-                      <IconComponent color="var(--color-gray)" />
+                      <IconComponent width={20} height={20} color="var(--color-gray)" />
                     </div>
                     <span>{item.label}</span>
                     {item.info ? (
-                      <div className="absolute right-0 w-6 h-6 rounded-full bg-dark-gray flex items-center justify-center text-base text-white">
+                      <Badge className="absolute right-0 w-6 h-6 rounded-full bg-dark-gray flex items-center justify-center text-base text-white">
                         12
-                      </div>
+                      </Badge>
                     ) : (
                       ''
                     )}
@@ -112,7 +113,7 @@ export default function PersonalAreaPopup({ onOpenChange }: Props) {
                 <Link href={item.path} key={index} scroll={false} passHref>
                   <li className="flex items-center gap-4 h-15 px-5 relative">
                     <div className="w-5 flex items-center justify-center">
-                      <IconComponent color="var(--color-gray)" />
+                      <IconComponent width={20} height={20} color="var(--color-gray)" />
                     </div>
                     <span>{item.label}</span>
                     {item.info ? (
@@ -138,7 +139,7 @@ export default function PersonalAreaPopup({ onOpenChange }: Props) {
                     <Link href={item.path} key={index} scroll={false} passHref>
                       <li className="flex items-center gap-4 h-15 px-5 relative" onClick={logout}>
                         <div className="w-5 flex items-center justify-center">
-                          <IconComponent color="var(--color-gray)" />
+                          <IconComponent width={20} height={20} color="var(--color-gray)" />
                         </div>
                         <span>{item.label}</span>
                       </li>
@@ -159,7 +160,7 @@ export default function PersonalAreaPopup({ onOpenChange }: Props) {
                           onClick={() => onOpenChange(true)}
                         >
                           <div className="w-5 flex items-center justify-center">
-                            <IconComponent color="var(--color-rosy-red)" />
+                            <IconComponent width={20} height={20} color="var(--color-rosy-red)" />
                           </div>
                           <span className="text-rosy-red">{item.label}</span>
                         </SheetClose>

@@ -30,12 +30,12 @@ export default function PersonalAreaPopup() {
   return (
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger>
-        <User className="cursor-pointer" fill="var(--color-light-gray)" />
+        <User width={20} height={20} className="cursor-pointer" fill="var(--color-light-gray)" />
       </PopoverTrigger>
       <PopoverContent className="flex flex-col gap-5 rounded-none w-125 h-125 mr-5 mt-5 p-12.5">
         <div className="flex justify-between items-center">
           <h5 className="uppercase">personal area</h5>
-          <CrissCross className="cursor-pointer" onClick={() => setOpen(false)} />
+          <CrissCross width={20} height={20} className="cursor-pointer" onClick={() => setOpen(false)} />
         </div>
         <div>
           <ul className="font-normal uppercase whitespace-nowrap">
@@ -46,7 +46,7 @@ export default function PersonalAreaPopup() {
                 <Link href={item.path} key={index} scroll={false} passHref>
                   <li className="flex items-center gap-4 h-15 px-5 relative hover:bg-super-light-gray">
                     <div className="w-5 flex items-center justify-center">
-                      <IconComponent color="var(--color-gray)" />
+                      <IconComponent width={20} height={20} color="var(--color-gray)" />
                     </div>
                     <span>{item.label}</span>
                     {item.info ? (
@@ -70,7 +70,7 @@ export default function PersonalAreaPopup() {
                 <Link href={item.path} key={index} scroll={false} passHref onClick={logout}>
                   <li className="flex items-center gap-4 h-15 px-5 relative hover:bg-super-light-gray">
                     <div className="w-5 flex items-center justify-center">
-                      <IconComponent color="var(--color-gray)" />
+                      <IconComponent width={20} height={20} color="var(--color-gray)" />
                     </div>
                     <span>{item.label}</span>
                   </li>

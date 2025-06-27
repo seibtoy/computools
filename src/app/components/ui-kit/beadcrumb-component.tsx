@@ -39,7 +39,7 @@ const pages = {
   default: { label: 'Page', icon: icons.info },
 } as const;
 
-export function BreadcrumbComponent() {
+function BreadcrumbComponent() {
   const pathname = usePathname();
   const segments = pathname.split('/').filter(Boolean);
 
@@ -63,7 +63,7 @@ export function BreadcrumbComponent() {
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
                 <Link href="/" className="flex items-center gap-2">
-                  <HomeIcon className="w-4 h-4" />
+                  <HomeIcon width={16} height={16} />
                   <span className="uppercase text-base font-normal">Home</span>
                 </Link>
               </BreadcrumbLink>
@@ -73,7 +73,7 @@ export function BreadcrumbComponent() {
                 <BreadcrumbSeparator />
                 <BreadcrumbItem>
                   <BreadcrumbPage className="flex items-center gap-2">
-                    <pageData.icon className="w-4 h-4" />
+                    <pageData.icon width={16} height={16} />
                     <span className="uppercase text-base font-normal">{pageData.label}</span>
                   </BreadcrumbPage>
                 </BreadcrumbItem>
@@ -85,3 +85,5 @@ export function BreadcrumbComponent() {
     </>
   );
 }
+
+export { BreadcrumbComponent };
