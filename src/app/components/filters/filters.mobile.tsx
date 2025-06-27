@@ -2,7 +2,6 @@ import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
 import Image from 'next/image';
 import { type ComponentProps } from 'react';
 
-import FiltersContent from '@/app/components/filters/filters-сontent';
 import {
   DialogTitle,
   Sheet,
@@ -14,6 +13,7 @@ import {
 } from '@/app/components/ui-kit';
 
 import Logo from '../../../../public/assets/images/logo.png';
+import FiltersContent from './filters-сontent';
 
 export default function FiltersSheet(props: ComponentProps<typeof FiltersContent>) {
   const Funnel = icons.funnel;
