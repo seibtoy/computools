@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-import { icons } from '@/app/components/ui-kit';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -11,6 +10,7 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
+  icons,
 } from '@/app/components/ui-kit';
 
 type PageKey = keyof typeof pages;

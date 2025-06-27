@@ -43,7 +43,7 @@ import {
   WashingMachineIcon,
   XLogoItem,
   YoutubeLogoIcon,
-} from '@/app/components/ui-kit';
+} from '@/app/components/ui-kit/icons/icons';
 
 export const icons = {
   laptop: LaptopIcon,

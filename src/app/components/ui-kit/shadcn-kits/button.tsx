@@ -2,7 +2,7 @@ import { Slot } from '@radix-ui/react-slot';
 import { type VariantProps, cva } from 'class-variance-authority';
 import type { ComponentProps } from 'react';
 
-import { type IconName, icons } from '@/app/components/ui-kit';
+import { type IconName, icons } from '@/app/components/ui-kit/icons';
 import { cn } from '@/lib';
 
 interface Props extends ComponentProps<'button'>, VariantProps<typeof buttonVariants> {
