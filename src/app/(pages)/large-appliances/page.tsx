@@ -2,7 +2,7 @@
 
 import MainLayout from '@/app/(pages)/mainLayout';
 import CardsSlider from '@/app/components/cards-slider/cards-slider';
-import ResponsiveFilters from '@/app/components/filters/filters-responsive';
+import FiltersComponent from '@/app/components/filters/filters-component';
 import { useProductFilters } from '@/hooks';
 import { filters, largeAppliancesProducts } from '@/mocks';
 import { shuffleArray } from '@/utils';
@@ -24,7 +24,7 @@ export default function LargeAppliancesPage() {
     <MainLayout
       filtersContent={
         <>
-          <ResponsiveFilters
+          <FiltersComponent
             filtersData={filters.largeAppliances}
             selectedFilters={selectedFilters}
             onChange={toggleFilter}

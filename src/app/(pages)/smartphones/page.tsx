@@ -2,7 +2,7 @@
 
 import MainLayout from '@/app/(pages)/mainLayout';
 import CardsSlider from '@/app/components/cards-slider/cards-slider';
-import ResponsiveFilters from '@/app/components/filters/filters-responsive';
+import FiltersComponent from '@/app/components/filters/filters-component';
 import { useProductFilters } from '@/hooks';
 import { filters, smartphonesProducts } from '@/mocks';
 import { shuffleArray } from '@/utils';
@@ -23,7 +23,7 @@ export default function SmartphonesPage() {
     <MainLayout
       filtersContent={
         <>
-          <ResponsiveFilters
+          <FiltersComponent
             filtersData={filters.smartphones}
             selectedFilters={selectedFilters}
             onChange={toggleFilter}

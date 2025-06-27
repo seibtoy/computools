@@ -54,7 +54,7 @@ export default function PersonalAreaPopup({ onOpenChange }: Props) {
       <SheetTrigger asChild>
         <MenuAlt width={20} height={20} color="black" className="cursor-pointer" />
       </SheetTrigger>
-      <SheetContent className="bg-black border-black text-white flex flex-col gap-5 rounded-none px-6 w-screen max-lg:overflow-y-auto pb-5">
+      <SheetContent className="bg-black border-black text-white flex flex-col gap-5 rounded-none px-6 w-screen max-lg:overflow-y-auto scrollbar-hide pb-5">
         <SheetHeader className="h-21 flex flex-row justify-between items-center border-b-1 border-gray">
           <Image src={Logo} alt="Logo" />
           <SheetClose>
