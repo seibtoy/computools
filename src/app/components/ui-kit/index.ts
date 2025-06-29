@@ -15,3 +15,4 @@ export * from './shadcn-kits/pagination';
 export * from './icons/icons';
 export * from './icons/index';
 export * from './paggination-component';
+export * from './shadcn-kits/carousel';

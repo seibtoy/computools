@@ -1,14 +1,19 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
-import Slider, { type Settings } from 'react-slick';
-import 'slick-carousel/slick/slick-theme.css';
-import 'slick-carousel/slick/slick.css';
+import { useEffect, useState } from 'react';
 
 import Card from '@/app/components/cards-slider/item-card/item-card';
-import { Button } from '@/app/components/ui-kit';
+import {
+  Button,
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from '@/app/components/ui-kit';
 import { useWindowSize } from '@/hooks';
 import type { ProductData } from '@/interfaces';
+import { cn } from '@/lib';
 
 interface Props {
   title: string;
@@ -18,7 +23,6 @@ interface Props {
 }
 
 export default function CardsSlider({ title, data, tagColor, tagLabel }: Props) {
-  const sliderRef = useRef<Slider | null>(null);
   const { width } = useWindowSize();
   const [visibleSlides, setVisibleSlides] = useState(5);
 
@@ -30,47 +34,29 @@ export default function CardsSlider({ title, data, tagColor, tagLabel }: Props) 
     else setVisibleSlides(1);
   }, [width]);
 
-  useEffect(() => {
-    sliderRef.current?.slickGoTo(0);
-  }, [data]);
-
   const hiddenCount = data.length - visibleSlides;
 
-  const settings: Settings = {
-    dots: false,
-    infinite: false,
-    speed: 400,
-    arrows: false,
-    slidesToShow: visibleSlides,
-    slidesToScroll: visibleSlides,
+  const getItemBasis = (visibleSlides: number) => {
+    switch (visibleSlides) {
+      case 5:
+        return 'basis-1/5';
+      case 4:
+        return 'basis-1/4';
+      case 3:
+        return 'basis-1/3';
+      case 2:
+        return 'basis-1/2';
+      case 1:
+      default:
+        return 'basis-full';
+    }
   };
 
   return (
-    <div className="flex flex-col gap-10.5">
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-4 flex-wrap max-sm:gap-2">
-          <h4 className="uppercase font-black text-3xl! max-lg:text-xl! whitespace-nowrap">{title}</h4>
-          {hiddenCount > 0 && <span className="uppercase text-3xl font-bold text-medium-gray">+{hiddenCount}</span>}
-        </div>
-        <div className="flex items-center gap-6">
-          <Button className="uppercase" variant="blackBtn">
-            See all
-          </Button>
-          <div className="flex max-sm:hidden">
-            <Button
-              className="uppercase"
-              variant="blackBtn"
-              icon="leftArrow"
-              onClick={() => sliderRef.current?.slickPrev()}
-            />
-            <Button
-              className="uppercase"
-              variant="blackBtn"
-              icon="rightArrow"
-              onClick={() => sliderRef.current?.slickNext()}
-            />
-          </div>
-        </div>
+    <div className="flex flex-col gap-10.5 max-xl:gap-20 max-lg:gap-10.5 relative">
+      <div className="flex items-center gap-4 flex-wrap max-sm:gap-2">
+        <h4 className="uppercase font-black text-3xl! max-lg:text-xl! whitespace-nowrap">{title}</h4>
+        {hiddenCount > 0 && <span className="uppercase text-3xl font-bold text-medium-gray">+{hiddenCount}</span>}
       </div>
       <div className="w-full max-w-screen-xl mx-auto px-4">
         {data.length === 0 ? (
@@ -78,18 +64,37 @@ export default function CardsSlider({ title, data, tagColor, tagLabel }: Props) 
             No products found
           </div>
         ) : (
-          <Slider ref={sliderRef} {...settings}>
-            {data.map((card) => (
-              <Card
-                key={card.id}
-                tagLabel={tagLabel}
-                tagColor={tagColor}
-                title={card.name}
-                price={card.price}
-                imageSrc={card.image}
-              />
-            ))}
-          </Slider>
+          <Carousel
+            key={visibleSlides}
+            opts={{ slidesToScroll: visibleSlides, align: 'start', containScroll: 'trimSnaps' }}
+          >
+            <CarouselContent>
+              {data.map((card, index) => {
+                const isLastVisible = (index + 1) % visibleSlides === 0;
+                return (
+                  <CarouselItem key={card.id} className={cn(getItemBasis(visibleSlides), 'pl-0 pt-0')}>
+                    <Card
+                      className={cn(isLastVisible ? 'border-r-0! pb-[23px]!' : '')}
+                      tagLabel={tagLabel}
+                      tagColor={tagColor}
+                      title={card.name}
+                      price={card.price}
+                      imageSrc={card.image}
+                    />
+                  </CarouselItem>
+                );
+              })}
+            </CarouselContent>
+            <div className="flex items-center gap-6 absolute top-0 right-0 max-xl:top-15 max-lg:top-0">
+              <Button className="uppercase h-full" variant="blackBtn">
+                See all
+              </Button>
+              <div className="max-sm:hidden">
+                <CarouselPrevious variant="blackBtn" className="static rounded-none w-10 h-10" />
+                <CarouselNext variant="blackBtn" className="static rounded-none w-10 h-10" />
+              </div>
+            </div>
+          </Carousel>
         )}
       </div>
     </div>

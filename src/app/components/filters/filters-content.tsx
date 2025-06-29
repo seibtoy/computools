@@ -3,6 +3,7 @@
 import { useState } from 'react';
 
 import { Button, Checkbox, Input, icons } from '@/app/components/ui-kit';
+import { cn } from '@/lib';
 
 interface Props {
   filtersData: {
@@ -47,7 +48,7 @@ export default function FiltersContent({ filtersData, selectedFilters, onChange,
           <ChevronUp
             width={16}
             height={16}
-            className={`${filtersOpen ? 'rotate-0' : 'rotate-180'} transition-transform duration-300`}
+            className={cn(filtersOpen ? 'rotate-0' : 'rotate-180', 'transition-transform duration-300')}
           />
           <h5 className="uppercase">Filters</h5>
         </div>
@@ -74,7 +75,7 @@ export default function FiltersContent({ filtersData, selectedFilters, onChange,
               <ChevronUp
                 width={16}
                 height={16}
-                className={`${openSubcategories[key] ? 'rotate-0' : 'rotate-180'} transition-transform duration-300`}
+                className={cn(openSubcategories[key] ? 'rotate-0' : 'rotate-180', 'transition-transform duration-300')}
               />
               <h6 className="uppercase">{key}</h6>
             </div>
