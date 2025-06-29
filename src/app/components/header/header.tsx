@@ -7,9 +7,8 @@ import { useState } from 'react';
 import { AuthDialog } from '@/app/components/dialogs/authentication';
 import PersonalAreaPopupMobile from '@/app/components/header/personal-area/personal-area.mobile.sheet';
 import PersonalAreaPopup from '@/app/components/header/personal-area/personal-area.popup';
-import { Badge, Button, Input, SearchDropdown, icons } from '@/app/components/ui-kit';
+import { Badge, SearchDropdown, icons } from '@/app/components/ui-kit';
 import { cn } from '@/lib';
-import { allProducts } from '@/mocks';
 import { useAuthStore } from '@/store';
 
 import MobileLogo from '../../../../public/assets/images/background-logo.png';
@@ -24,15 +23,7 @@ const CrossedUser = icons.crossedUser;
 export default function Header() {
   const [isOpenAuth, setIsOpenAuth] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const isLoggedIn = useAuthStore((state) => state.isLoggedIn);
-
-  const productNames = allProducts.flat().map((item) => ({
-    label: item.name,
-    value: item.name,
-    key: item.id,
-  }));
 
   return (
     <header className="flex items-center max-lg:justify-between max-lg:h-15 max-lg:pr-6 h-21.5 bg-light-gray">
@@ -43,35 +34,7 @@ export default function Header() {
         <Image src={DesktopLogo} alt="logo" className="h-21.5 w-86 max-lg:hidden cursor-pointer" />
       </Link>
       <div className="w-full h-full flex justify-center items-center lg:pl-10 lg:pr-21.5 max-lg:px-4 gap-10">
-        <div className="flex flex-1">
-          <div className={cn(isSearchOpen ? '' : 'max-lg:hidden', 'relative w-full')}>
-            <Input
-              placeholder=""
-              variant="search"
-              className="bg-white w-full text-base!"
-              leftIcon="magnifyingGlass"
-              rightIcon="microphone"
-              value={searchQuery}
-              onChange={(e) => {
-                setSearchQuery(e.target.value);
-                setIsDropdownOpen(e.target.value.length > 0);
-              }}
-            />
-            {isDropdownOpen && (
-              <SearchDropdown
-                query={searchQuery}
-                items={productNames}
-                onSelect={(val) => {
-                  setSearchQuery(val);
-                  setIsDropdownOpen(false);
-                }}
-              />
-            )}
-          </div>
-          <Button variant="greenBtn" iconPosition="right" icon="rightArrow" className="h-full max-lg:hidden">
-            Search
-          </Button>
-        </div>
+        <SearchDropdown isSearchOpen={isSearchOpen} setIsSearchOpen={setIsSearchOpen} />
         <div className="flex items-center h-full max-lg:hidden">
           <div className="flex items-center gap-2 h-full px-2 font-medium">
             ENG <ChevronDown width={14} height={14} />
